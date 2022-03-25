@@ -1,0 +1,58 @@
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  /* width: 10%; */
+
+  /* height: 100vh; */
+  /* background: url("https://www.apple.com/v/home/an/images/heroes/iphone-13-pro/hero_iphone13pro_avail__iy77cld0zwii_largetall.jpg")
+    center;
+  background-size: cover; */
+  /* padding-top: 70px 10px; */
+  /* background-repeat: no-repeat; */
+}
+
+.banner-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 400px;
+  position: absolute;
+}
+
+.banner-container h3 {
+  font-size: 3rem;
+  /* margin-top: 10rem; */
+}
+
+.banner-container p {
+  font-size: 1.5rem;
+  padding-top: 20px;
+}
+
+.button-wrappers button {
+  color: #4d96ff;
+  padding: 20px;
+  border: none;
+  background: none;
+  font-size: 1.2rem;
+}
+
+.banner-ipad-air img {
+  height: 90vh;
+}
+
+.banner-ipad-air {
+  color: white;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.banner-ipad-air .banner-body {
+  position: absolute;
+  padding-top: 400px;
+  left: 200px;
+}
