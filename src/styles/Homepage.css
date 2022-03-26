@@ -13,3 +13,53 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }
+
+.homepage-tv-show-sections {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.tv-show-left {
+  background: url("https://www.apple.com/v/home/an/images/promos/apple-at-work-underdogs/promo_efto__9gdao7fl4sy6_small.jpg")
+    center;
+}
+
+.tvshow-top-title {
+  margin-bottom: 170px;
+}
+
+.tv-show-left .tvshow-top-title {
+  margin-bottom: 300px;
+}
+
+.tv-show-right {
+  background: url("https://www.apple.com/v/home/an/images/promos/tv-plus-pachinko/promo_pachinko__ge0kbw3uikmm_small.jpg")
+    center;
+}
+
+.tv-show-left,
+.tv-show-right {
+  background-size: cover;
+  height: 60vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tvshow-desc {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.tvshow-desc:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.tv-show-underline:hover {
+  text-decoration: none;
+}

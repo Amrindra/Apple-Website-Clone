@@ -50,6 +50,57 @@ const Homepage = () => {
           img="https://www.apple.com/v/home/an/images/promos/watch-series-7/promo_watch_lte__djeaso7ukrsm_large_2x.jpg"
         />
       </div>
+
+      <div className="homepage-tv-show-sections">
+        <div className="tv-show-left">
+          <div className="tvshow-top-title">
+            <img
+              src="https://www.apple.com/v/home/an/images/logos/apple-at-work-underdogs/promo_logo_aaw__dq7tgf4m5ieu_large.png"
+              alt=""
+            />
+          </div>
+
+          <div className="tvshow-bottom-title">
+            <img
+              src="https://www.apple.com/v/home/an/images/logos/apple-at-work-underdogs/promo_logo_efto__c391lzc975ua_large.png"
+              alt=""
+            />
+          </div>
+          <p className="tvshow-desc">
+            Watch the film{" "}
+            <span>
+              <i className="fa-solid fa-circle-play"></i>
+            </span>
+          </p>
+        </div>
+
+        <div className="tv-show-right">
+          <div className="tvshow-top-title">
+            <img
+              src="https://www.apple.com/v/home/an/images/logos/tv-plus/logo_light__cfvl40z2nzau_large.png"
+              alt=""
+              className="tvshow-top-title"
+            />
+          </div>
+
+          <div className="tvshow-bottom-title">
+            <img
+              src="https://www.apple.com/v/home/an/images/logos/tv-plus-pachinko/promo_logo_pachinko__ec7gsyeb4uqa_large.png"
+              alt=""
+              className="tvshow-bottom-title"
+            />
+          </div>
+          <p className="tvshow-desc tv-show-underline">
+            Four generations. One destiny.
+          </p>
+          <p className="tvshow-desc ">
+            Stream now{" "}
+            <span>
+              <i className="fa-solid fa-circle-play"></i>
+            </span>
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

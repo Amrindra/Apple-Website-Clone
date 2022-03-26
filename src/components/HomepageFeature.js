@@ -13,7 +13,6 @@ const HomeFeature = ({ title, desc, img, subtitle }) => {
           <button>Buy {">"} </button>
         </div>
       </div>
-
       <img src={img} alt="" />
     </div>
   );
