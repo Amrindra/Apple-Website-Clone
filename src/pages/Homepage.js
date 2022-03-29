@@ -19,13 +19,27 @@ const Homepage = () => {
           desc="Love the power. Love the price."
           image="https://www.apple.com/v/home/an/images/heroes/iphone-se/hero_iphonese_avail__eg8srhcnpo66_largetall.jpg"
         />
+      </div>
 
-        <Banner
-          title="iPad Air"
-          desc="Light. Bright. Full of bright"
-          image="https://www.apple.com/v/home/an/images/heroes/tv-plus-oscar-coda/hero_coda__cv3jny7jpe6a_largetall.jpg"
-          className="banner-ipad-air"
-        />
+      {/* ************TV SHOW SECTION*********** */}
+      <div className="homepage-tv-show-section">
+        <div className="tv-show-top-title">
+          <p>An Apple Original Film</p>
+          <h1>CODA</h1>
+        </div>
+
+        <div className="tv-show-bottom-title">
+          <h3>
+            WINNER OF 3 ACADEMY AWARDS® <br /> INCLUDING BEST PICTURE
+          </h3>
+        </div>
+
+        <button className="tv-show-button">
+          Stream now{" "}
+          <span>
+            <i className="fa-solid fa-circle-play"></i>
+          </span>
+        </button>
       </div>
 
       <div className="feature-sections">
@@ -33,11 +47,13 @@ const Homepage = () => {
           title="Studio Display"
           desc="A sight to be bold."
           img="https://www.apple.com/v/home/an/images/promos/studio-display/promo_studiodisplay_avail__d1cx9j73ooq6_large_2x.jpg"
+          button="Buy"
         />
         <HomepageFeature
           title="Mac Studio"
           desc="Empower station"
           img="https://www.apple.com/v/home/an/images/promos/mac-studio/promo_macstudio_avail__byhwkp0o4gty_large_2x.jpg"
+          button="Buy"
         />
 
         <IpadAir
@@ -52,6 +68,7 @@ const Homepage = () => {
           icon="fa-brands fa-apple"
           desc="Your new super power."
           img="https://www.apple.com/v/home/an/images/promos/iphone-13/promo_iphone13_avail__frc36u35m0ii_large_2x.jpg"
+          button="Buy"
         />
 
         <HomepageFeature
@@ -60,12 +77,14 @@ const Homepage = () => {
           subtitle="SERIES 7"
           desc="It's our largest display yet."
           img="https://www.apple.com/v/home/an/images/promos/watch-series-7/promo_watch_lte__djeaso7ukrsm_large_2x.jpg"
+          button="Buy"
         />
         <HomepageFeature
           title="Card"
           icon="fa-brands fa-apple"
           desc="Get up to 3% Daily Cash back with every purchase"
           img="https://www.apple.com/v/home/an/images/promos/apple-card/tile__cauwwcyyn9hy_large.jpg"
+          button="Apply now"
         />
       </div>
       {/* 
@@ -92,31 +111,11 @@ const Homepage = () => {
           </p>
         </div>
 
-        <div className="tv-show-right">
-          <div className="tvshow-top-title">
-            <img
-              src="https://www.apple.com/v/home/an/images/logos/tv-plus/logo_light__cfvl40z2nzau_large.png"
-              alt=""
-              className="tvshow-top-title"
-            />
-          </div>
+      
 
-          <div className="tvshow-bottom-title">
-            <img
-              src="https://www.apple.com/v/home/an/images/logos/tv-plus-pachinko/promo_logo_pachinko__ec7gsyeb4uqa_large.png"
-              alt=""
-              className="tvshow-bottom-title"
-            />
-          </div>
-          <p className="tvshow-desc tv-show-underline">
-            Four generations. One destiny.
-          </p>
-          <p className="tvshow-desc ">
-            Stream now{" "}
-            <span>
-              <i className="fa-solid fa-circle-play"></i>
-            </span>
-          </p>
+      
+        
+        
         </div>
       </div> */}
     </div>

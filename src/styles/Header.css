@@ -2,7 +2,8 @@
   color: white;
   background-color: rgba(34, 33, 33, 1);
   font-size: 0.8rem;
-  position: fixed;
+  position: sticky;
+  top: 0;
   width: 100%;
   z-index: 999;
 }

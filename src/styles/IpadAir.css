@@ -11,7 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  top: 20px;
+  top: 35px;
 }
 
 .ipad-air-body .title {
@@ -23,6 +23,7 @@
   font-size: 1.4rem;
   color: rgb(66, 66, 66);
   font-weight: 300;
+  color: white;
 }
 
 .ipad-air img {

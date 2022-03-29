@@ -1,65 +1,62 @@
 .banner-sections {
   display: flex;
   flex-direction: column;
-  /* gap: 1rem; */
-  /* width: 100%; */
 }
 
 .feature-sections {
-  /* display: flex;
-  gap: 1rem;
-  margin-top: 1rem; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }
 
-.homepage-tv-show-sections {
-  display: flex;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.tv-show-left {
-  background: url("https://www.apple.com/v/home/an/images/promos/apple-at-work-underdogs/promo_efto__9gdao7fl4sy6_small.jpg")
-    center;
-}
-
-.tvshow-top-title {
-  /* margin-bottom: 170px; */
-}
-
-.tv-show-left .tvshow-top-title {
-  /* margin-bottom: 300px; */
-}
-
-.tv-show-right {
-  background: url("https://www.apple.com/v/home/an/images/promos/tv-plus-pachinko/promo_pachinko__ge0kbw3uikmm_small.jpg")
-    center;
-}
-
-.tv-show-left,
-.tv-show-right {
-  background-size: cover;
-  height: 0vh;
-  flex: 1;
+/* ********TV SHOW SECTION*********** */
+.homepage-tv-show-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-}
-
-.tvshow-desc {
+  justify-content: center;
+  height: 100vh;
+  background: url("https://www.apple.com/v/home/an/images/heroes/tv-plus-oscar-coda/hero_coda__cv3jny7jpe6a_largetall.jpg")
+    center;
+  background-size: cover;
   color: white;
-  font-size: 20px;
-  font-weight: 400;
-}
-
-.tvshow-desc:hover {
   cursor: pointer;
-  text-decoration: underline;
 }
 
-.tv-show-underline:hover {
-  text-decoration: none;
+.tv-show-top-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 400px;
+}
+
+.tv-show-top-title p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(238, 238, 238);
+}
+
+.tv-show-top-title h1 {
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.tv-show-bottom-title h3 {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.tv-show-button {
+  border: none;
+  background: none;
+  color: white;
+  padding: 20px;
+  font-size: 1.2rem;
+}
+
+.tv-show-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }

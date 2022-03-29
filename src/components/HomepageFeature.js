@@ -1,12 +1,12 @@
 import "../styles/HomeFeature.css";
 
-const HomeFeature = ({ title, desc, img, subtitle, icon }) => {
+const HomeFeature = ({ title, desc, img, subtitle, icon, button }) => {
   return (
     <div className="homepage-feature">
       <div className="feature-body">
         <h3>
           <span>
-            <i class={icon}></i>
+            <i className={icon}></i>
           </span>{" "}
           {title}
         </h3>
@@ -15,7 +15,9 @@ const HomeFeature = ({ title, desc, img, subtitle, icon }) => {
 
         <div className="button-wrappers">
           <button>Learn more {">"} </button>
-          <button>Buy {">"} </button>
+          <button>
+            {button} {">"}{" "}
+          </button>
         </div>
       </div>
       <img src={img} alt="" />

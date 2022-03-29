@@ -6,7 +6,6 @@ const IpadAir = ({ title, desc, img, subtitle, titleImage }) => {
       <div className="ipad-air-body">
         {/* <h3>{title}</h3> */}
         <img className="title" src={title} alt="" />
-        <p className="subtitle">{subtitle}</p>
         <p>{desc}</p>
 
         <div className="button-wrappers">
