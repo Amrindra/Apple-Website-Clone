@@ -1,0 +1,57 @@
+.mac-banner-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  padding-bottom: 90px;
+}
+
+.mac-banner-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.new {
+  color: rgb(238, 97, 3);
+}
+
+.mac-banner-body h1 {
+  font-size: 3rem;
+  padding: 10px 0 0 0;
+}
+
+.mac-banner-body .desc {
+  font-size: 2rem;
+  padding-bottom: 30px;
+}
+
+.mac-banner-wrapper img {
+  width: 35vw;
+}
+
+.mac-button-wrapper {
+  padding: 20px;
+}
+.mac-button-wrapper .buy-btn {
+  background-color: rgb(62, 140, 230);
+  color: white;
+  height: 40px;
+  width: 80px;
+  border-radius: 50px;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.learn-more-btn {
+  color: #4d96ff;
+  padding: 20px;
+  border: none;
+  background: none;
+  font-size: 1.1rem;
+  font-weight: 300;
+  cursor: pointer;
+}

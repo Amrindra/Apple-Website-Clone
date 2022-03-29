@@ -87,37 +87,6 @@ const Homepage = () => {
           button="Apply now"
         />
       </div>
-      {/* 
-      <div className="homepage-tv-show-sections">
-        <div className="tv-show-left">
-          <div className="tvshow-top-title">
-            <img
-              src="https://www.apple.com/v/home/an/images/logos/apple-at-work-underdogs/promo_logo_aaw__dq7tgf4m5ieu_large.png"
-              alt=""
-            />
-          </div>
-
-          <div className="tvshow-bottom-title">
-            <img
-              src="https://www.apple.com/v/home/an/images/logos/apple-at-work-underdogs/promo_logo_efto__c391lzc975ua_large.png"
-              alt=""
-            />
-          </div>
-          <p className="tvshow-desc">
-            Watch the film{" "}
-            <span>
-              <i className="fa-solid fa-circle-play"></i>
-            </span>
-          </p>
-        </div>
-
-      
-
-      
-        
-        
-        </div>
-      </div> */}
     </div>
   );
 };

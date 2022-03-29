@@ -8,7 +8,6 @@
 .mac-header-items {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   font-size: 0.7rem;
   padding: 10px 0;
@@ -16,10 +15,14 @@
 
 .mac-header-items img {
   height: 50px;
-  width: 50px;
 }
 
 .mac-header-items .new {
   color: rgb(194, 17, 17);
   font-weight: 300;
+}
+
+.mac-header-items:hover {
+  cursor: pointer;
+  color: rgb(83, 83, 253);
 }
