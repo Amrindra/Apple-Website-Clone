@@ -1,6 +1,7 @@
 import "../styles/Homepage.css";
 import Banner from "../components/Banner";
 import HomepageFeature from "../components/HomepageFeature";
+import IpadAir from "../components/IpadAir";
 
 const Homepage = () => {
   return (
@@ -22,7 +23,7 @@ const Homepage = () => {
         <Banner
           title="iPad Air"
           desc="Light. Bright. Full of bright"
-          image="https://www.apple.com/v/home/an/images/heroes/ipad-air/hero_ipadair_avail__dsqv5nn0tpsi_large_2x.jpg"
+          image="https://www.apple.com/v/home/an/images/heroes/tv-plus-oscar-coda/hero_coda__cv3jny7jpe6a_largetall.jpg"
           className="banner-ipad-air"
         />
       </div>
@@ -38,19 +39,36 @@ const Homepage = () => {
           desc="Empower station"
           img="https://www.apple.com/v/home/an/images/promos/mac-studio/promo_macstudio_avail__byhwkp0o4gty_large_2x.jpg"
         />
+
+        <IpadAir
+          title="https://www.apple.com/v/home/an/images/logos/ipad-air/promo_logo_ipadair__frwnnsqveeye_large.png"
+          titleImage="https://www.apple.com/v/home/an/images/logos/ipad-air/promo_logo_ipadair__frwnnsqveeye_large.png"
+          desc="It's our largest display yet."
+          img="https://www.apple.com/v/home/an/images/promos/ipad-air/promo_ipadair_avail__ferd4bfpcdm6_medium.jpg"
+        />
+
         <HomepageFeature
-          title="iPhone 3"
+          title="iPhone 13"
+          icon="fa-brands fa-apple"
           desc="Your new super power."
           img="https://www.apple.com/v/home/an/images/promos/iphone-13/promo_iphone13_avail__frc36u35m0ii_large_2x.jpg"
         />
+
         <HomepageFeature
           title="WATCH"
+          icon="fa-brands fa-apple"
           subtitle="SERIES 7"
           desc="It's our largest display yet."
           img="https://www.apple.com/v/home/an/images/promos/watch-series-7/promo_watch_lte__djeaso7ukrsm_large_2x.jpg"
         />
+        <HomepageFeature
+          title="Card"
+          icon="fa-brands fa-apple"
+          desc="Get up to 3% Daily Cash back with every purchase"
+          img="https://www.apple.com/v/home/an/images/promos/apple-card/tile__cauwwcyyn9hy_large.jpg"
+        />
       </div>
-
+      {/* 
       <div className="homepage-tv-show-sections">
         <div className="tv-show-left">
           <div className="tvshow-top-title">
@@ -100,7 +118,7 @@ const Homepage = () => {
             </span>
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

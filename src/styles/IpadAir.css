@@ -1,0 +1,39 @@
+.ipad-air {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.ipad-air-body {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 20px;
+}
+
+.ipad-air-body .title {
+  height: 40px;
+  width: 150px;
+}
+
+.ipad-air-body p {
+  font-size: 1.4rem;
+  color: rgb(66, 66, 66);
+  font-weight: 300;
+}
+
+.ipad-air img {
+  width: 100vw;
+  height: 80vh;
+}
+
+.ipad-air .subtitle {
+  font-size: 0.9rem;
+  color: rgb(230, 31, 31);
+  font-weight: bold;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}

@@ -26,11 +26,11 @@
 }
 
 .tvshow-top-title {
-  margin-bottom: 170px;
+  /* margin-bottom: 170px; */
 }
 
 .tv-show-left .tvshow-top-title {
-  margin-bottom: 300px;
+  /* margin-bottom: 300px; */
 }
 
 .tv-show-right {
@@ -41,7 +41,7 @@
 .tv-show-left,
 .tv-show-right {
   background-size: cover;
-  height: 60vh;
+  height: 0vh;
   flex: 1;
   display: flex;
   flex-direction: column;

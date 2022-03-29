@@ -1,10 +1,15 @@
 import "../styles/HomeFeature.css";
 
-const HomeFeature = ({ title, desc, img, subtitle }) => {
+const HomeFeature = ({ title, desc, img, subtitle, icon }) => {
   return (
     <div className="homepage-feature">
       <div className="feature-body">
-        <h3>{title}</h3>
+        <h3>
+          <span>
+            <i class={icon}></i>
+          </span>{" "}
+          {title}
+        </h3>
         <p className="subtitle">{subtitle}</p>
         <p>{desc}</p>
 
