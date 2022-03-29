@@ -1,0 +1,66 @@
+.noteboook-container {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.notebook-top-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-option-image {
+  padding: 25px 0;
+}
+
+.mac-notebook-price {
+  color: grey;
+  padding-bottom: 10px;
+}
+
+.mac-notebook-title {
+  padding-bottom: 20px;
+  font-size: 1.7rem;
+}
+
+.mac-notebook-buy-btn {
+  background-color: rgb(62, 140, 230);
+  color: white;
+  height: 30px;
+  width: 50px;
+  border-radius: 50px;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.mac-notebook-learnmore-btn {
+  color: #4d96ff;
+  padding: 20px;
+  border: none;
+  background: none;
+  font-size: 0.8rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.notebook-underline {
+  border-bottom: solid 1px grey;
+  width: 100%;
+  /* height: 2px; */
+  /* padding-bottom: 100px; */
+  /* height: 1px; */
+}
+
+/* ************ BOTTOM SECTION******************* */
+
+.notebook-bottom-section {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

@@ -1,8 +1,13 @@
 import "../styles/mac/MacPage.css";
 import MacHeader from "../components/macComputer/MacHeader";
 import MacBanner from "../components/macComputer/MacBanner";
+import { useState } from "react";
+import MacNotebook from "../components/macComputer/MacNotebook";
+import MacDesktop from "../components/macComputer/MacDesktop";
 
 const MacPage = () => {
+  const [showComputer, setShowComputer] = useState(true);
+
   return (
     <div className="mac-page">
       <MacHeader />
@@ -30,8 +35,51 @@ const MacPage = () => {
           model="MacBook Pro"
           desc="Supercharged for pros."
           price="From $1999"
-          img="https://www.apple.com/v/mac/home/bl/images/overview/hero/macbook_pro_14_16__dmqm5vr9l7yq_large_2x.jpg"
+          img="https://www.apple.com/v/mac/home/bl/images/overview/hero/macbook_pro_14_16__dmqm5vr9l7yq_large.jpg"
         />
+      </div>
+
+      <div className="mac-comparing-wrapper">
+        <h3 className="mac-comparing-title">Which Mac is right for you?</h3>
+        <div className="mac-comparing-buttons">
+          <button
+            className="notebook-btn"
+            onClick={() => setShowComputer(true)}
+          >
+            Notebook
+          </button>
+          <button onClick={() => setShowComputer(!showComputer)}>
+            Desktop
+          </button>
+          <div className="mac-comparing-unerline"></div>
+        </div>
+
+        <div className="mac-compare-section">
+          {showComputer ? (
+            <>
+              <MacNotebook
+                computerImage="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_mba__fchj615oz0yi_large.png"
+                colorOptionImage="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_swatches_three_colors__bagzlsvl2ehu_large.png"
+                price="From $999"
+                macTitle="MacBook Air"
+              />
+              <MacNotebook
+                computerImage="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_mbp13__euj5z15300om_large.png"
+                colorOptionImage="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_swatches_two_colors_mac_mini__ftd28sgtl52e_large.png"
+                price="From $1299"
+                macTitle="MacBook Air"
+              />
+              <MacNotebook
+                computerImage="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_mbp14_and_16__f2dhysusb5im_large.png"
+                colorOptionImage="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_swatches_two_colors_mac_mini__ftd28sgtl52e_large.png"
+                price="From $1999"
+                macTitle="MacBook Air"
+              />
+            </>
+          ) : (
+            <MacDesktop />
+          )}
+        </div>
       </div>
     </div>
   );
