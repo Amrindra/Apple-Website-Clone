@@ -120,7 +120,12 @@ const MacPage = () => {
               />
             </>
           ) : (
-            <MacDesktop />
+            <>
+              <MacDesktop />
+              <MacDesktop />
+              <MacDesktop />
+              <MacDesktop />
+            </>
           )}
         </div>
       </div>

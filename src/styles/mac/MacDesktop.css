@@ -1,0 +1,46 @@
+.mac-desktop-top-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-option-image {
+  padding: 25px 0;
+}
+
+.mac-desktop-price {
+  color: grey;
+  padding-bottom: 10px;
+}
+
+.mac-desktop-title {
+  padding-bottom: 20px;
+  font-size: 1.7rem;
+}
+
+.mac-desktop-buy-btn {
+  background-color: rgb(62, 140, 230);
+  color: white;
+  height: 30px;
+  width: 50px;
+  border-radius: 50px;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.mac-desktop-learnmore-btn {
+  color: #4d96ff;
+  padding: 20px;
+  border: none;
+  background: none;
+  font-size: 0.8rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.underline {
+  border-bottom: solid 1px grey;
+  width: 100%;
+}
