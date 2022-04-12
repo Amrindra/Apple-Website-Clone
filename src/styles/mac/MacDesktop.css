@@ -44,3 +44,40 @@
   border-bottom: solid 1px grey;
   width: 100%;
 }
+
+/* ************ BOTTOM SECTION******************* */
+
+.desktop-bottom-section {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.desktop-items {
+  padding: 15px 0;
+}
+
+.desktop-bottom-section img {
+  width: 40px;
+}
+
+.desktop-bottom-section h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.desktop-bottom-section p {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.desktop-twin-chip img {
+  width: 75px;
+}
+
+/* .desktop-keyboard img{
+  width: 100px;
+} */

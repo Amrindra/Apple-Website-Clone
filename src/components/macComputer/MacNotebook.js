@@ -1,5 +1,4 @@
 import "../../styles/mac/MacNotebook.css";
-import NotebookSpecs from "./NotebookSpecs";
 
 const MacNotebook = ({
   computerImage,
@@ -91,7 +90,7 @@ const MacNotebook = ({
           <p>Weight</p>
         </div>
 
-        <div className="notebook-touch-id notebook-items">
+        <div className={`notebook-touch-id notebook-items `}>
           <img src={touchIDImage} alt="" />
           <p>{touchIdDesc}</p>
         </div>

@@ -121,10 +121,82 @@ const MacPage = () => {
             </>
           ) : (
             <>
-              <MacDesktop />
-              <MacDesktop />
-              <MacDesktop />
-              <MacDesktop />
+              <MacDesktop
+                computerImage="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_imac24__bdgus6d1xqb6_large.png"
+                colorOptionImage="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_swatches_multicolor__ese4oyi8w4mu_large.png"
+                desktopTitle="iMac 24"
+                price="From $1999"
+                chipImage="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_icon_m1__dsskrswqk7wy_large_2x.png"
+                chipTitle="Apple M1 chip"
+                cpuTitle="8-core"
+                gpuLevel="Up to"
+                gpuTitle="8-core"
+                gpuDesc="GPU"
+                ramMemoryDesc="Up to 16GB unified memory For increased performance and power efficiency"
+                storageTitle="2TB"
+                retinaDisplayTitle="4.5k"
+                retinaDisplayDesc="Retina display"
+                facetimeImage="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_icon_camera__dlxow9r3leie_large_2x.png"
+                facetimeCameraDesc="1080p FaceTime HD camera With the image signal processor of M1 for drastically improved performance"
+                touchIDImage="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_icon_imac24_keyboard__dgffd78l4dsi_large.png"
+                touchIdDesc="Configurable with Magic Keyboard with Touch ID and Numeric Keypad"
+                className=""
+              />
+              <MacDesktop
+                computerImage="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_macmini__b77zzeep1s6a_large.png"
+                colorOptionImage="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_swatches_two_colors_mac_mini__ftd28sgtl52e_large.png"
+                price="From $1999"
+                desktopTitle="Mac mini"
+                chipImage="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_icon_m1__dsskrswqk7wy_large_2x.png"
+                chipTitle="Apple M1 chip Also available with Intel Core i5 or i7 processor"
+                cpuTitle="8-core"
+                gpuLevel="Up to"
+                gpuTitle="8-core"
+                gpuDesc="GPU"
+                ramMemoryDesc="Up to 16GB unified memory For increased performance and power efficiency"
+                storageTitle="2TB"
+                retinaDisplayTitle="---"
+                facetimeCameraDesc="---"
+                touchIdDesc="---"
+                className=""
+              />
+              <MacDesktop
+                computerImage="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_macstudio__dg371ccau70i_large.png"
+                colorOptionImage="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_swatches_one_color__fk3qx0i2y96y_large.png"
+                price="From $1999"
+                desktopTitle="MacBook Air"
+                chipImage="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_icon_m1_max_ultra__b1fqr4b8b1o2_large.png"
+                chipTitle="Apple M1 Pro chip or Apple M1 Max chip"
+                cpuTitle="20-core"
+                gpuLevel="Up to"
+                gpuTitle="64-core"
+                gpuDesc="GPU"
+                ramMemoryDesc="Up to 16GB unified memory For increased performance and power efficiency"
+                storageTitle="8TB"
+                retinaDisplayTitle="---"
+                facetimeCameraDesc="---"
+                touchIdDesc="---"
+                className="desktop-twin-chip"
+              />
+              <MacDesktop
+                computerImage="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_macpro__cj3i514iwpua_large.png"
+                colorOptionImage="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_swatches_one_color__fk3qx0i2y96y_large.png"
+                price="From $1999"
+                desktopTitle="MacBook Air"
+                chipImage="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_icon_intel__fmgvvgs5jy2y_large.png"
+                chipTitle="Apple M1 Pro chip or Apple M1 Max chip"
+                cpuTitle="28-core"
+                gpuLevel="Up to"
+                gpuTitle="AMD"
+                gpuDesc="GPU"
+                ramMemoryDesc="Up to 16GB unified memory For increased performance and power efficiency"
+                storageTitle="8TB"
+                retinaDisplayTitle="---"
+                facetimeCameraDesc="---"
+                touchIDImage="https://www.apple.com/v/mac/home/bl/images/overview/compare/compare_icon_keyboard__gkxt65itjamq_large.png"
+                touchIdDesc="Magic Keyboard with Numeric Keypad"
+                className="desktop-keyboard"
+              />
             </>
           )}
         </div>

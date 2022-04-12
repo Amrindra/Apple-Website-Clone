@@ -19,7 +19,10 @@ const Header = () => {
         </Link>
 
         <li>iPad</li>
-        <li>iPhone</li>
+
+        <Link to="/iphone">
+          <li>iPhone</li>
+        </Link>
         <li>Watch</li>
         <li>AirPods</li>
         <li>TV & Home</li>
