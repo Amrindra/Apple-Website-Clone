@@ -25,7 +25,7 @@ const IpadBanner = (props) => {
         </div>
       </div>
 
-      <img src={props.modelImage} alt="" />
+      <img src={props.modelImage} alt="" className="model-img" />
     </div>
   );
 };

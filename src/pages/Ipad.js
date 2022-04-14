@@ -1,7 +1,6 @@
 import IpadChapterNav from "../components/ipad/IpadChapterNav";
 import IpadBanner from "../components/ipad/IpadBanner";
 import "../styles/iPad/Ipad.css";
-import IpadFeature from "../components/ipad/IpadFeature";
 import Divider from "../components/Divider";
 
 const Ipad = () => {
@@ -25,6 +24,7 @@ const Ipad = () => {
         desc1="The ultimate"
         desc2="iPad experience"
         price="From $799"
+        modelImage="https://www.apple.com/v/ipad/home/bw/images/overview/hero/ipad_pro_hero__bh3eq6sqfjw2_large.jpg"
         className="ipad-pro-container"
       />
 

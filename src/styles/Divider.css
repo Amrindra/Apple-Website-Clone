@@ -1,4 +1,5 @@
 .divider {
   height: 1rem;
   background-color: rgb(196, 196, 196);
+  z-index: 999;
 }

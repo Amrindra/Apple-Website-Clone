@@ -1,11 +1,13 @@
 .ipad-banner-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   padding: 40px;
   color: white;
   background-color: black;
   text-align: center;
+  z-index: 1;
+  overflow: hidden;
 }
 
 .ipad-new {
@@ -44,7 +46,6 @@
 
 .ipad-button-wrappers button {
   border: none;
-  /* background: none; */
 }
 
 .ipad-buy-btn {
@@ -67,25 +68,21 @@
 .ipad-pro-container {
   background-color: white;
   color: black;
-  justify-content: reverse;
-  background: url("https://www.apple.com/v/ipad/home/bw/images/overview/hero/ipad_pro_hero__bh3eq6sqfjw2_large.jpg")
-    no-repeat;
-  background-size: cover;
-  margin-top: 50px;
-  margin-left: 30rem;
-  height: 100vh;
+  padding: 100px 0;
 }
 
 .ipad-pro-container .ipad-banner-wrapper {
-  overflow: hidden;
-  /* margin-left: -20rem; */
-  margin-bottom: 10rem;
-}
-
-.ipad-pro-container .ipad-banner-title {
+  position: absolute;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-left: 250px;
+  padding-bottom: 100px;
+}
+
+.ipad-pro-container .model-img {
+  margin-left: 40rem;
 }
 
 /* *************Regular iPad Section********** */
@@ -98,6 +95,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.regular-ipad-conatiner .model-img {
+  margin-top: -10rem;
 }
 
 /* iPad Mini Section  */
