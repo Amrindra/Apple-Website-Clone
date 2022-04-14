@@ -3,7 +3,7 @@ import "../../styles/iPad/IpadBanner.css";
 const IpadBanner = (props) => {
   return (
     <div className={`ipad-banner-container ${props.className}`}>
-      <div className="ipad-banner-wrapper">
+      <div className={`ipad-banner-wrapper `}>
         <p className="ipad-new">{props.current}</p>
 
         <div className="ipad-banner-title">
