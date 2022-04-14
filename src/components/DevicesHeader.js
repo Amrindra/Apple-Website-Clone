@@ -1,96 +1,81 @@
 import "../styles/DevicesHeader.css";
 
-const DevicesHeader = () => {
+const DevicesHeader = (props) => {
   return (
-    <div className="devices-header">
-      <div className="devices-header-items">
-        <img
-          src="https://www.apple.com/v/mac/home/bl/images/familybrowser/macbookair_light__f0o95rwae8ae_large.svg"
-          alt=""
-        />
-        <p>MacBook Air</p>
-      </div>
+    <div className={`devices-header ${props.classNameForNav}`}>
+      <div className="charpter-nav-wrapper">
+        <div className="devices-header-items">
+          <img src={props.iphone13ProImage || props.macbookAirImage} alt="" />
+          <p>{props.macbookAir || props.iphone13Pro}</p>
+          <p className="new">{props.iphone13ProDesc}</p>
+        </div>
 
-      <div className="devices-header-items">
-        <img
-          src="https://www.apple.com/v/mac/home/bl/images/familybrowser/macbook_pro_light__e791sjqzt32a_large.svg"
-          alt=""
-        />
-        <p>MacBook Pro</p>
-      </div>
+        <div className="devices-header-items">
+          <img src={props.macbookProImage || props.iphone13Image} alt="" />
+          <p>{props.macbookPro || props.iphone13}</p>
+          <p className="new">{props.iphone13Desc}</p>
+        </div>
 
-      <div className="devices-header-items">
-        <img
-          src="https://www.apple.com/v/mac/home/bl/images/familybrowser/imac_24_light__colyztscbeeu_large.svg"
-          alt=""
-        />
-        <p>iMac 24"</p>
-      </div>
+        <div className="devices-header-items">
+          <img src={props.iMacImage || props.iphoneSEImage} alt="" />
+          <p>{props.iMac || props.iphoneSE}</p>
+          <p className="new">{props.iphoneSEDesc}</p>
+        </div>
 
-      <div className="devices-header-items">
-        <img
-          src="https://www.apple.com/v/mac/home/bl/images/familybrowser/mac_mini_light__frtahmzmd4mm_large.svg"
-          alt=""
-        />
-        <p>Mac mini</p>
-      </div>
+        <div className="devices-header-items">
+          <img src={props.macMiniImage || props.iphone12Image} alt="" />
+          <p>{props.macMini || props.iphone12}</p>
+        </div>
 
-      <div className="devices-header-items">
-        <img
-          src="https://www.apple.com/v/mac/home/bl/images/familybrowser/mac_studio_light__ea3pb1auizu6_large.svg"
-          alt=""
-        />
-        <p>Mac Studio</p>
-        <p className="new">New</p>
-      </div>
+        <div className="devices-header-items">
+          <img src={props.macStudioImage || props.iphone11Image} alt="" />
+          <p>{props.macStudio || props.iphone11}</p>
+          <p className="new">{props.macStudioDesc}</p>
+        </div>
 
-      <div className="devices-header-items">
-        <img
-          src="https://www.apple.com/v/mac/home/bl/images/familybrowser/mac_pro_light__cj4dvg7thx5y_large.svg"
-          alt=""
-        />
-        <p>Mac Pro</p>
-      </div>
+        <div className={`devices-header-items ${props.classNameForItem}`}>
+          <img src={props.macProImage} alt="" />
+          <p>{props.macPro}</p>
+        </div>
 
-      <div className="devices-header-items">
-        <img
-          src="https://www.apple.com/v/mac/home/bl/images/familybrowser/mac_compare_light__emml1umdv9m6_large.svg"
-          alt=""
-        />
-        <p>Compare</p>
-      </div>
+        <div className={`devices-header-items `}>
+          <img src={props.compareImage} alt="" />
+          <p>{props.compare}</p>
+        </div>
 
-      <div className="devices-header-items">
-        <img
-          src="https://www.apple.com/v/mac/home/bl/images/familybrowser/displays_light__ewxqx5obdxci_large.svg"
-          alt=""
-        />
-        <p>Displays</p>
-        <p className="new">New</p>
-      </div>
+        <div className="devices-header-items">
+          <img src={props.displayImage || props.airPodsImage} alt="" />
+          <p>{props.display || props.airPods}</p>
+          <p className="new">{props.displayDesc}</p>
+        </div>
 
-      <div className="devices-header-items">
-        <img
-          src="https://www.apple.com/v/mac/home/bl/images/familybrowser/mac_accessories_light__cuds10wyptyu_large.svg"
-          alt=""
-        />
-        <p>Accessories</p>
-      </div>
+        <div className="devices-header-items">
+          <img src={props.airTagImage} alt="" />
+          <p>{props.airTag}</p>
+        </div>
 
-      <div className="devices-header-items">
-        <img
-          src="https://www.apple.com/v/mac/home/bl/images/familybrowser/mac_os_light__d0zczt34scq6_large.svg"
-          alt=""
-        />
-        <p>Monterey</p>
-      </div>
+        <div className="devices-header-items">
+          <img
+            src={props.accessoriesImage || props.iphoneAccessoriesImage}
+            alt=""
+          />
+          <p>{props.accessories || props.iphoneAccessories}</p>
+        </div>
 
-      <div className="devices-header-items">
-        <img
-          src="https://www.apple.com/v/mac/home/bl/images/familybrowser/mac_shop_light__layuggud1xe2_large.svg"
-          alt=""
-        />
-        <p>Shop Mac</p>
+        <div className="devices-header-items">
+          <img src={props.appleCardImage} alt="" />
+          <p>{props.appleCard}</p>
+        </div>
+
+        <div className="devices-header-items">
+          <img src={props.macOSImage || props.iphoneiOSImage} alt="" />
+          <p>{props.macOSName || props.iphoneiOS}</p>
+        </div>
+
+        <div className="devices-header-items">
+          <img src={props.shopImage || props.iphoneShopImage} alt="" />
+          <p>{props.shop || props.iphoneShop}</p>
+        </div>
       </div>
     </div>
   );

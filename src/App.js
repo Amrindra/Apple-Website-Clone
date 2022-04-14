@@ -5,6 +5,7 @@ import Homepage from "./pages/Homepage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MacPage from "./pages/MacPage";
 import Iphone from "./pages/Iphone";
+import Ipad from "./pages/Ipad";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/macpage" element={<MacPage />} />
+          <Route path="/ipad" element={<Ipad />} />
           <Route path="/iphone" element={<Iphone />} />
         </Routes>
         {/* <Footer /> */}

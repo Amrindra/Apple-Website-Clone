@@ -1,0 +1,51 @@
+.iphone-banner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.iphone-banner-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 400px;
+  position: absolute;
+}
+
+.iphone-banner-container h3 {
+  font-size: 2rem;
+}
+
+.iphone-banner-container h1 {
+  font-size: 4rem;
+  font-weight: normal;
+}
+
+.iphone-banner-container p {
+  font-size: 1.5rem;
+  padding: 30px;
+}
+
+.iphone-button-wrappers .iphone-learn-more {
+  color: #4d96ff;
+  padding: 0 20px;
+  border: none;
+  background: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.iphone-button-wrappers .iphone-buy-btn {
+  background-color: rgb(62, 140, 230);
+  color: white;
+  width: 70px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  font-size: 1.3rem;
+  font-weight: 300;
+  cursor: pointer;
+}

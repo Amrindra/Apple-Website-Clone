@@ -17,12 +17,14 @@ const Header = () => {
         <Link to="/macpage">
           <li>Mac</li>
         </Link>
-
-        <li>iPad</li>
+        <Link to="/ipad">
+          <li>iPad</li>
+        </Link>
 
         <Link to="/iphone">
           <li>iPhone</li>
         </Link>
+
         <li>Watch</li>
         <li>AirPods</li>
         <li>TV & Home</li>
