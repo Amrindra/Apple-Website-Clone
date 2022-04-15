@@ -18,3 +18,37 @@
   padding: 10px 50px;
   font-weight: 350;
 }
+
+.navbar-for-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 675px) {
+  .header-ul {
+    display: none;
+  }
+
+  .navbar-for-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .ul-for-mobile {
+    /* z-index: 999; */
+    position: absolute;
+    width: 100%;
+
+    background-color: black;
+  }
+
+  .ul-for-mobile li {
+    border-bottom: solid 1px grey;
+    padding: 20px 0;
+    margin-left: 40px;
+    /* text-decoration: underline; */
+    width: 80%;
+    font-size: 1rem;
+  }
+}
