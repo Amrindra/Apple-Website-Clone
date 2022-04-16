@@ -5,6 +5,10 @@ import React, { useState } from "react";
 
 const Header = () => {
   const [click, setClick] = useState(false);
+  const handleClick = () => {
+    setClick(!click);
+  };
+
   return (
     <div className="header-container">
       <ul className="header-ul">
@@ -42,45 +46,54 @@ const Header = () => {
         </li>
       </ul>
 
-      <nav className="navbar-for-mobile">
-        <div className="barIcon" onClick={() => setClick(!click)}>
+      {/* ********This Section is for mobile screen******* */}
+      <nav className={click ? "navbar-for-mobile-active" : "navbar-for-mobile"}>
+        <div className="barIcon" onClick={handleClick}>
           {click ? (
             <i className="fa-solid fa-xmark fa-xl" />
           ) : (
             <i className="fa-solid fa-bars " />
           )}
         </div>
+
         <Link to="/">
           <i className="fa-brands fa-apple fa-xl"></i>
         </Link>
-        <ShoppingBagIcon />
+
+        <ShoppingBagIcon
+          className={click ? "mobile-cart" : ""}
+          onClick={handleClick}
+        />
       </nav>
 
-      <ul onClick={() => setClick(!click)} className="ul-for-mobile">
-        {click && (
-          <>
-            <li>Store</li>
+      {click && (
+        <ul onClick={handleClick} className="ul-for-mobile">
+          <div className="mobile-search-screen">
+            <i className="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search apple.com" />
+          </div>
+          <li>Store</li>
 
-            <Link to="/macpage">
-              <li>Mac</li>
-            </Link>
-            <Link to="/ipad">
-              <li>iPad</li>
-            </Link>
+          <Link to="/macpage">
+            <li>Mac</li>
+          </Link>
 
-            <Link to="/iphone">
-              <li>iPhone</li>
-            </Link>
+          <Link to="/ipad">
+            <li>iPad</li>
+          </Link>
 
-            <li>Watch</li>
-            <li>AirPods</li>
-            <li>TV & Home</li>
-            <li>Only on Apple</li>
-            <li>Accessories</li>
-            <li>Support</li>
-          </>
-        )}
-      </ul>
+          <Link to="/iphone">
+            <li>iPhone</li>
+          </Link>
+
+          <li>Watch</li>
+          <li>AirPods</li>
+          <li>TV & Home</li>
+          <li>Only on Apple</li>
+          <li>Accessories</li>
+          <li className="mobile-screen-support">Support</li>
+        </ul>
+      )}
     </div>
   );
 };

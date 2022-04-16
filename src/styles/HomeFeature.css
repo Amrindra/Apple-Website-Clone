@@ -36,3 +36,9 @@
   margin-bottom: 10px;
   letter-spacing: 2px;
 }
+
+@media screen and (max-width: 675px) {
+  .homepage-feature img {
+    width: 1000px;
+  }
+}

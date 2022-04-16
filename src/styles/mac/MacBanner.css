@@ -55,3 +55,9 @@
   font-weight: 300;
   cursor: pointer;
 }
+
+@media screen and (max-width: 675px) {
+  .mac-banner-wrapper img {
+    width: 250px;
+  }
+}

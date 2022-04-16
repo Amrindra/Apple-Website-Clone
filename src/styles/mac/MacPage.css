@@ -36,3 +36,17 @@
   gap: 2rem;
   padding-top: 30px;
 }
+
+@media screen and (max-width: 675px) {
+  .mac-comparing-title {
+    font-size: 2.2rem;
+    max-width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mac-compare-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

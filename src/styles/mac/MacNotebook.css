@@ -1,9 +1,3 @@
-.noteboook-container {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-}
-
 .notebook-top-section {
   display: flex;
   flex-direction: column;
@@ -87,4 +81,10 @@
 .pro-max-chip img {
   /* height: 50px; */
   width: 75px;
+}
+
+@media screen and (max-width: 675px) {
+  .notebook-top-section .computer-image {
+    width: 170px;
+  }
 }
