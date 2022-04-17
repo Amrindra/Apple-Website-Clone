@@ -36,9 +36,9 @@
   }
 
   .mobile-search-screen {
-    background-color: grey;
+    background-color: rgba(34, 33, 33, 1);
     display: flex;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     align-items: center;
     height: 40px;
     padding-left: 10px;
@@ -50,11 +50,14 @@
     font-size: 1.2em;
     width: 100%;
     background: transparent;
-    text-decoration: none;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    color: white;
   }
 
   .mobile-search-screen input::placeholder {
-    color: rgb(142, 68, 68);
+    color: rgb(196, 190, 190);
   }
 
   .navbar-for-mobile-active {
@@ -88,4 +91,4 @@
   .mobile-cart {
     opacity: 0;
   }
-} 
+}

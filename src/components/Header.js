@@ -72,6 +72,7 @@ const Header = () => {
             <i className="fa-solid fa-magnifying-glass"></i>
             <input type="text" placeholder="Search apple.com" />
           </div>
+
           <li>Store</li>
 
           <Link to="/macpage">

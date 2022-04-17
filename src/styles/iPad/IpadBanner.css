@@ -108,3 +108,53 @@
   color: black;
   flex-direction: row-reverse;
 }
+
+@media screen and (max-width: 675px) {
+  .ipad-banner-container {
+    flex-direction: column;
+  }
+
+  .ipad-banner-wrapper {
+    margin-right: -70px;
+  }
+
+  .ipad-price {
+    padding: 30px 0 10px;
+  }
+
+  .model-img {
+    width: 300px;
+  }
+
+  .ipad-learn-more {
+    padding-bottom: 50px;
+  }
+
+  .ipad-pro-container {
+    background-color: white;
+    color: black;
+  }
+
+  .ipad-pro-container .ipad-banner-wrapper {
+    position: static;
+    padding-left: 50px;
+  }
+
+  .ipad-pro-container .model-img {
+    margin-left: 20rem;
+    margin-top: -200px;
+    width: 700px;
+  }
+
+  .ipad-pro-container .ipad-banner-wrapper {
+    margin-bottom: 60px;
+  }
+
+  .regular-ipad-conatiner .ipad-banner-wrapper {
+    margin-bottom: 150px;
+  }
+
+  .regular-ipad-conatiner .model-img {
+    width: 450px;
+  }
+}
