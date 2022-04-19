@@ -1,5 +1,5 @@
 .store-container {
-  background-color: rgb(202, 202, 202);
+  background-color: rgb(231, 231, 231);
 }
 
 .store-introduction-and-shopping-help {
@@ -20,7 +20,8 @@
   font-size: 3rem;
 }
 
-.introduction span {
+.introduction span,
+.card-introduction-title span {
   color: grey;
 }
 
@@ -66,4 +67,12 @@
   margin-left: auto;
   display: flex;
   gap: 2rem;
+}
+
+.card-introduction-title {
+  font-size: 2rem;
+  padding-top: 100px;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
 }

@@ -2,6 +2,13 @@
   width: 500px;
   margin-top: 50px;
   position: relative;
+  transition: all 1s ease;
+}
+
+.store-card-container:hover {
+  transform: scale(1.05);
+  transition: all 1s ease;
+  cursor: pointer;
 }
 
 .store-card-container .store-card-desc {
@@ -27,4 +34,17 @@
 .store-card-desc p {
   color: rgb(46, 42, 42);
   font-size: 1.2rem;
+}
+
+/* IPAD AIR SECTION */
+.card-ipad-air h4 {
+  color: white;
+}
+
+.card-ipad-air h3 {
+  color: white;
+}
+
+.card-ipad-air p {
+  color: white;
 }
