@@ -1,0 +1,48 @@
+.store-introduction-and-shopping-help {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 60px 30px;
+}
+
+.introduction {
+  max-width: 700px;
+}
+
+.introduction h3 {
+  font-size: 3rem;
+}
+
+.introduction span {
+  color: grey;
+}
+
+.shoping-help-and-location {
+  min-width: 400px;
+}
+.shopping-help {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  margin-left: 140px;
+  padding-bottom: 10px;
+}
+
+.shopping-help nav {
+  color: rgb(105, 105, 255);
+}
+
+.shopping-help nav:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.shopping-help-desc {
+}
+
+.shopping-help .icon {
+  padding: 0 25px;
+}

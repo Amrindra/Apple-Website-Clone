@@ -18,11 +18,14 @@ const Header = () => {
           </li>
         </Link>
 
-        <li>Store</li>
+        <Link to="/store">
+          <li>Store</li>
+        </Link>
 
         <Link to="/macpage">
           <li>Mac</li>
         </Link>
+
         <Link to="/ipad">
           <li>iPad</li>
         </Link>
@@ -73,7 +76,9 @@ const Header = () => {
             <input type="text" placeholder="Search apple.com" />
           </div>
 
-          <li>Store</li>
+          <Link to="/store">
+            <li>Store</li>
+          </Link>
 
           <Link to="/macpage">
             <li>Mac</li>
