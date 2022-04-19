@@ -1,3 +1,5 @@
+import StoreCard from "../components/store/StoreCard";
+import StoreHero from "../components/store/StoreHero";
 import "../styles/Store/Store.css";
 
 const Store = () => {
@@ -33,6 +35,33 @@ const Store = () => {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="store-hero-section">
+        <StoreHero />
+        <StoreHero />
+        <StoreHero />
+        <StoreHero />
+        <StoreHero />
+        <StoreHero />
+        <StoreHero />
+        <StoreHero />
+      </section>
+
+      <section className="store-card-section">
+        {/* <div className="introduction">
+          <h3>
+            Store. <span>The best way to buy the products you love.</span>
+          </h3>
+        </div> */}
+
+        <StoreCard />
+        <StoreCard />
+        <StoreCard />
+        <StoreCard />
+        <StoreCard />
+        <StoreCard />
+        <StoreCard />
       </section>
     </div>
   );

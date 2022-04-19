@@ -1,3 +1,7 @@
+.store-container {
+  background-color: rgb(202, 202, 202);
+}
+
 .store-introduction-and-shopping-help {
   display: flex;
   justify-content: space-between;
@@ -40,9 +44,26 @@
   cursor: pointer;
 }
 
-.shopping-help-desc {
-}
-
 .shopping-help .icon {
   padding: 0 25px;
+}
+
+.store-hero-section {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 80px;
+  overflow-y: hidden;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  margin-top: 50px;
+}
+
+.store-card-section {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  gap: 2rem;
 }

@@ -1,0 +1,18 @@
+.store-hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+}
+
+.store-hero-container img {
+  width: 150px;
+}
+
+.store-hero-container .store-title {
+  font-size: 1.1rem;
+  color: rgb(92, 86, 86);
+  font-weight: bold;
+  padding-top: 10px;
+}
