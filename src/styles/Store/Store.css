@@ -5,7 +5,6 @@
 .store-introduction-and-shopping-help {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
@@ -49,16 +48,46 @@
   padding: 0 25px;
 }
 
+/* *************STORE HERO************* */
+.slider-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  scrollbar-width: none;
+}
+
+.slider-icon.left,
+.slider-icon.right {
+  background-color: grey;
+  border-radius: 100%;
+  position: absolute;
+  color: white;
+}
+
+.slider-icon.left {
+  left: 0;
+}
+
+.slider-icon.right {
+  right: 0;
+}
+
 .store-hero-section {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   gap: 80px;
-  overflow-y: hidden;
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 10px;
   margin-top: 50px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.store-hero-section::-webkit-scrollbar,
+.store-card-section::-webkit-scrollbar {
+  display: none;
 }
 
 .store-card-section {
@@ -67,6 +96,7 @@
   margin-left: auto;
   display: flex;
   gap: 2rem;
+  overflow: scroll;
 }
 
 .card-introduction-title {

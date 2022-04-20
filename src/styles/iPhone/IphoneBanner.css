@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  height: 100vh;
 }
 
 .iphone-banner-body {
@@ -11,7 +12,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 400px;
+  margin-bottom: 5px;
+  /* position: absolute; */
+}
+
+.iphone-13-pro-banner {
+  top: 10rem;
   position: absolute;
 }
 
@@ -27,6 +33,10 @@
 .iphone-banner-container p {
   font-size: 1.5rem;
   padding: 30px;
+}
+
+.iphone-13-banner {
+  height: 100%;
 }
 
 .iphone-button-wrappers .iphone-learn-more {
