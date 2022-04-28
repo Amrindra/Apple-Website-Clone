@@ -57,6 +57,14 @@
   scrollbar-width: none;
 }
 
+.slider-container .slider-icon {
+  opacity: 0;
+}
+
+.slider-container:hover .slider-icon {
+  opacity: 100;
+}
+
 .slider-icon.left,
 .slider-icon.right {
   background-color: grey;
@@ -112,8 +120,21 @@
   margin-left: auto;
 }
 
-@media screen and (max-width: 1024px) {
-  /* .slider-container {
-    margin-left: 2rem;
-  } */
+@media screen and (max-width: 680px) {
+  .store-container {
+    overflow: hidden;
+  }
+
+  .introduction h3 {
+    font-size: 2rem;
+  }
+
+  .store-introduction-and-shopping-help {
+    flex-direction: column;
+  }
+
+  .shopping-help {
+    margin-left: -20px;
+    padding-top: 20px;
+  }
 }

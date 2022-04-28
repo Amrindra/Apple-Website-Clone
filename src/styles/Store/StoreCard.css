@@ -37,14 +37,11 @@
 }
 
 /* IPAD AIR SECTION */
-.card-ipad-air h4 {
+
+.store-card-white-text h3 {
   color: white;
 }
 
-.card-ipad-air h3 {
-  color: white;
-}
-
-.card-ipad-air p {
+.store-card-white-text p {
   color: white;
 }

@@ -104,8 +104,9 @@ const Store = () => {
 
       <div className="slider-container">
         <MdChevronLeft
+          style={{ display: !isSlide && "none" }}
           size={40}
-          className="slider-icon left"
+          className={`slider-icon left `}
           onClick={() => handleSlider("left")}
         />
         <section ref={rowRef} className="store-hero-section" id="slider1">
@@ -157,6 +158,7 @@ const Store = () => {
       <div className="slider-container">
         <MdChevronLeft
           size={40}
+          style={{ display: !isSlide && "none" }}
           className="slider-icon left"
           onClick={() => handleSliderForCardOne("left")}
         />
@@ -212,6 +214,7 @@ const Store = () => {
       <div className="slider-container">
         <MdChevronLeft
           size={40}
+          style={{ display: !isSlide && "none" }}
           className="slider-icon left"
           onClick={() => handleSliderForCardTwo("left")}
         />
@@ -252,6 +255,7 @@ const Store = () => {
 
       <div className="slider-container">
         <MdChevronLeft
+          style={{ display: !isSlide && "none" }}
           size={40}
           className="slider-icon left"
           onClick={() => handleSliderForCardThree("left")}
@@ -271,34 +275,25 @@ const Store = () => {
             cardTitle="BUSINESS"
             cardDesc="Six apple services. One easy subcription"
             cardImg="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-small-business-202108?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1627318784000"
-            className="card-ipad-air"
+            className="store-card-white-text"
           />
 
           <StoreCard
             cardTitle="GOVERNMENT"
             cardDesc="Special pricing is available for state, local, and federal agencies."
             cardImg="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-gov-202108?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1632870676000"
+            className="store-card-white-text"
           />
 
           <StoreCard
-            cardTitle="GOVERNMENT"
-            cardDesc="Special pricing is available for state, local, and federal agencies."
-            cardImg="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-gov-202108?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1632870676000"
+            cardTitle="VETERANS AND MILITARY"
+            cardDesc="Active and veteran members may be eligible for exclusive savings."
+            cardImg="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-veterans-202203?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1645468079106"
           />
           <StoreCard
-            cardTitle="GOVERNMENT"
-            cardDesc="Special pricing is available for state, local, and federal agencies."
-            cardImg="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-gov-202108?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1632870676000"
-          />
-          <StoreCard
-            cardTitle="GOVERNMENT"
-            cardDesc="Special pricing is available for state, local, and federal agencies."
-            cardImg="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-gov-202108?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1632870676000"
-          />
-          <StoreCard
-            cardTitle="GOVERNMENT"
-            cardDesc="Special pricing is available for state, local, and federal agencies."
-            cardImg="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-gov-202108?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1632870676000"
+            cardTitle="CERTIFIED REFURBISHED"
+            cardDesc="Shop like-new products backed by a one-year warranty."
+            cardImg="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-refurb-202108?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1627318783000"
           />
         </section>
         <MdChevronRight
