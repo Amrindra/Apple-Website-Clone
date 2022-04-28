@@ -27,6 +27,7 @@
 .shoping-help-and-location {
   min-width: 400px;
 }
+
 .shopping-help {
   display: flex;
   align-items: center;
@@ -62,6 +63,8 @@
   border-radius: 100%;
   position: absolute;
   color: white;
+  cursor: pointer;
+  z-index: 1;
 }
 
 .slider-icon.left {
@@ -77,8 +80,8 @@
   grid-template-columns: repeat(10, 1fr);
   gap: 80px;
   max-width: 1200px;
-  margin-right: auto;
   margin-left: auto;
+  margin-right: auto;
   padding-left: 10px;
   margin-top: 50px;
   overflow-x: scroll;
@@ -96,13 +99,21 @@
   margin-left: auto;
   display: flex;
   gap: 2rem;
-  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding-bottom: 20px;
 }
 
 .card-introduction-title {
   font-size: 2rem;
-  padding-top: 100px;
+  margin-top: 30px;
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  /* .slider-container {
+    margin-left: 2rem;
+  } */
 }

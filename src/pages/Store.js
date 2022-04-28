@@ -2,16 +2,70 @@ import StoreCard from "../components/store/StoreCard";
 import StoreHero from "../components/store/StoreHero";
 import "../styles/Store/Store.css";
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
+import { useRef, useState } from "react";
 
 const Store = () => {
-  const sliderLeft = () => {
-    var slider = document.getElementById("slider");
-    slider.scrollLeft += 500;
+  const rowRef = useRef(null);
+  const rowRefCardOne = useRef(null);
+  const rowRefCardTwo = useRef(null);
+  const rowRefCardThree = useRef(null);
+
+  const [isSlide, setIsSlide] = useState(false);
+
+  const handleSlider = (direction) => {
+    setIsSlide(true);
+
+    if (rowRef.current) {
+      const { scrollLeft, clientWidth } = rowRef.current;
+
+      const scrollTo =
+        direction === "left"
+          ? scrollLeft - clientWidth
+          : scrollLeft + clientWidth;
+      rowRef.current.scrollTo({ left: scrollTo, behavior: "smooth" });
+    }
   };
 
-  const sliderRight = () => {
-    var slider = document.getElementById("slider");
-    slider.scrollLeft -= 500;
+  const handleSliderForCardOne = (direction) => {
+    setIsSlide(true);
+
+    if (rowRefCardOne.current) {
+      const { scrollLeft, clientWidth } = rowRefCardOne.current;
+
+      const scrollTo =
+        direction === "left"
+          ? scrollLeft - clientWidth
+          : scrollLeft + clientWidth;
+      rowRefCardOne.current.scrollTo({ left: scrollTo, behavior: "smooth" });
+    }
+  };
+
+  const handleSliderForCardTwo = (direction) => {
+    setIsSlide(true);
+
+    if (rowRefCardTwo.current) {
+      const { scrollLeft, clientWidth } = rowRefCardTwo.current;
+
+      const scrollTo =
+        direction === "left"
+          ? scrollLeft - clientWidth
+          : scrollLeft + clientWidth;
+      rowRefCardTwo.current.scrollTo({ left: scrollTo, behavior: "smooth" });
+    }
+  };
+
+  const handleSliderForCardThree = (direction) => {
+    setIsSlide(true);
+
+    if (rowRefCardThree.current) {
+      const { scrollLeft, clientWidth } = rowRefCardThree.current;
+
+      const scrollTo =
+        direction === "left"
+          ? scrollLeft - clientWidth
+          : scrollLeft + clientWidth;
+      rowRefCardThree.current.scrollTo({ left: scrollTo, behavior: "smooth" });
+    }
   };
 
   return (
@@ -52,9 +106,9 @@ const Store = () => {
         <MdChevronLeft
           size={40}
           className="slider-icon left"
-          onClick={sliderLeft}
+          onClick={() => handleSlider("left")}
         />
-        <section className="store-hero-section" id="slider">
+        <section ref={rowRef} className="store-hero-section" id="slider1">
           <StoreHero
             storeHeroImg="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-mac-nav-202203?wid=200&hei=130&fmt=png-alpha&.v=1645051958490"
             storeHeroTitle="Mac"
@@ -90,7 +144,7 @@ const Store = () => {
         <MdChevronRight
           size={40}
           className="slider-icon right"
-          onClick={sliderRight}
+          onClick={() => handleSlider("right")}
         />
       </div>
 
@@ -104,9 +158,14 @@ const Store = () => {
         <MdChevronLeft
           size={40}
           className="slider-icon left"
-          onClick={sliderLeft}
+          onClick={() => handleSliderForCardOne("left")}
         />
-        <section className="store-card-section" id="slider">
+
+        <section
+          ref={rowRefCardOne}
+          className="store-card-section"
+          id="slider2"
+        >
           <StoreCard
             cardTitle="IPHONE 13 PRO"
             cardDesc="Oh. So. Pro."
@@ -140,7 +199,7 @@ const Store = () => {
         <MdChevronRight
           size={40}
           className="slider-icon right"
-          onClick={sliderRight}
+          onClick={() => handleSliderForCardOne("right")}
         />
       </div>
 
@@ -154,9 +213,13 @@ const Store = () => {
         <MdChevronLeft
           size={40}
           className="slider-icon left"
-          onClick={sliderLeft}
+          onClick={() => handleSliderForCardTwo("left")}
         />
-        <section className="store-card-section" id="slider">
+        <section
+          ref={rowRefCardTwo}
+          className="store-card-section"
+          id="slider3"
+        >
           <StoreCard
             cardTitle="WATCH AND LEARN"
             cardDesc="Join a Today at Apple virtual session."
@@ -176,7 +239,7 @@ const Store = () => {
         <MdChevronRight
           size={40}
           className="slider-icon right"
-          onClick={sliderRight}
+          onClick={() => handleSliderForCardTwo("right")}
         />
       </div>
 
@@ -191,9 +254,13 @@ const Store = () => {
         <MdChevronLeft
           size={40}
           className="slider-icon left"
-          onClick={sliderLeft}
+          onClick={() => handleSliderForCardThree("left")}
         />
-        <section className="store-card-section " id="slider">
+        <section
+          ref={rowRefCardThree}
+          className="store-card-section "
+          id="slider4"
+        >
           <StoreCard
             cardTitle="EDUCATION"
             cardDesc="Save on Mac or iPad with education pricing."
@@ -237,7 +304,7 @@ const Store = () => {
         <MdChevronRight
           size={40}
           className="slider-icon right"
-          onClick={sliderRight}
+          onClick={() => handleSliderForCardThree("right")}
         />
       </div>
     </div>
