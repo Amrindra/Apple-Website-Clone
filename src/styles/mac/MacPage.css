@@ -16,19 +16,14 @@
   font-size: 3rem;
 }
 
-.mac-comparing-buttons button {
-  border: none;
-  background: none;
-  padding: 50px 30px 20px 30px;
-  /* margin-left: 30px; */
-  font-size: 1rem;
-
-  /* border-bottom: solid 1px grey; */
-}
-
-.mac-comparing-unerline {
+.mac-comparing-spans {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+  cursor: pointer;
   border-bottom: solid 1px grey;
-  /* width: 190px; */
+  width: max-content;
+  font-size: 1.5rem;
 }
 
 .mac-compare-section {

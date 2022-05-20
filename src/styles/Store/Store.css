@@ -94,6 +94,7 @@
   margin-top: 50px;
   overflow-x: scroll;
   scroll-behavior: smooth;
+  /* transform: translateX(330px); */
 }
 
 .store-hero-section::-webkit-scrollbar,

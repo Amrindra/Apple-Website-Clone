@@ -41,17 +41,20 @@ const MacPage = () => {
 
       <div className="mac-comparing-wrapper">
         <h3 className="mac-comparing-title">Which Mac is right for you?</h3>
-        <div className="mac-comparing-buttons">
-          <button
+        <div className="mac-comparing-spans">
+          <span
             className="notebook-btn"
             onClick={() => setShowComputer(true)}
+            style={{ color: showComputer ? "red" : "black" }}
           >
             Notebook
-          </button>
-          <button onClick={() => setShowComputer(!showComputer)}>
+          </span>
+          <span
+            onClick={() => setShowComputer(!showComputer)}
+            style={{ color: showComputer ? "black" : "red" }}
+          >
             Desktop
-          </button>
-          <div className="mac-comparing-unerline"></div>
+          </span>
         </div>
 
         <div className="mac-compare-section">
