@@ -28,7 +28,7 @@ const HeaderBook = (props) => {
           <p>{props.model4}</p>
         </div>
 
-        <div className={`header_book_items `}>
+        <div className={`header_book_items`}>
           <img src={props.img5} alt="" />
           <p>{props.brandTitle}</p>
           <p>{props.model5}</p>

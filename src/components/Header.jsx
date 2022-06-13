@@ -43,7 +43,10 @@ const Header = () => {
         </Link>
 
         <li>TV & Home</li>
-        <li>Only on Apple</li>
+
+        <Link to="/onlyonapples">
+          <li>Only on Apple</li>
+        </Link>
         <li>Accessories</li>
         <li>Support</li>
         <li>
