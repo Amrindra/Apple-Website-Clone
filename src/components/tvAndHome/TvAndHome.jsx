@@ -67,6 +67,23 @@ const TvAndHome = () => {
             />
           </div>
         </div>
+
+        <div className="tvAndHome_card_home">
+          <img
+            src="https://www.apple.com/v/tv-home/d/images/overview/your_home_at_your_command__b1w2tomy2wia_large.jpg"
+            alt=""
+          />
+
+          <div className="tvAndHome_card_home_right">
+            <img
+              src="https://www.apple.com/v/tv-home/d/images/overview/home_icon__9u57pp0qahea_large.png"
+              alt=""
+            />
+            <p>Home</p>
+            <h1>Your home at your command.</h1>
+            <p>Learn more {">"}</p>
+          </div>
+        </div>
       </div>
     </div>
   );
