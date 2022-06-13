@@ -1,95 +1,67 @@
 import "./HeaderBook.css";
 
-const HeaderBook = () => {
+const HeaderBook = (props) => {
   return (
-    <div className="header_book">
+    <div className={`header_book ${props.className}`}>
       <div className="header_book_wrapper">
         <div className="header_book_items">
-          <img
-            src="https://www.apple.com/v/ipad/home/bw/images/chapternav/ipadpro_dark__175htbn6m76u_large.svg"
-            alt=""
-          />
-          <p>iPad pro</p>
+          <img src={props.img1} alt="" />
+          <p>{props.brandTitle}</p>
+          <p>{props.Series7}</p>
         </div>
 
         <div className="header_book_items">
-          <img
-            src="https://www.apple.com/v/ipad/home/bw/images/chapternav/ipadair_dark__gi1t1iqta1yu_large.svg"
-            alt=""
-          />
-          <p>iPad Air</p>
-          <p className="new">New</p>
+          <img src={props.img2} alt="" />
+          <p>{props.brandTitle}</p>
+          <p>{props.SeriesSE}</p>
         </div>
 
         <div className="header_book_items">
-          <img
-            src="https://www.apple.com/v/ipad/home/bw/images/chapternav/ipad_dark__fe8ocv9hktim_large.svg"
-            alt=""
-          />
-          <p>iPad</p>
+          <img src={props.img3} alt="" />
+          <p>{props.brandTitle}</p>
+          <p>{props.Series3}</p>
         </div>
 
         <div className="header_book_items">
-          <img
-            src="https://www.apple.com/v/ipad/home/bw/images/chapternav/ipadmini_dark__cdfcygd422uu_large.svg"
-            alt=""
-          />
-          <p>iPad mini</p>
+          <img src={props.img4} alt="" />
+          <p>{props.brandTitle}i</p>
+          <p>{props.SeriesNike}</p>
         </div>
 
         <div className={`header_book_items `}>
-          <img
-            src="https://www.apple.com/v/ipad/home/bw/images/chapternav/ipad_compare_dark__cxllw9w1tuy6_large.svg"
-            alt=""
-          />
-          <p>Compare</p>
+          <img src={props.img5} alt="" />
+          <p>{props.brandTitle}</p>
+          <p>{props.SeriesHermes}</p>
         </div>
 
         <div className="header_book_items">
-          <img
-            src="https://www.apple.com/v/ipad/home/bw/images/chapternav/apple_pencil_dark__c42qcvi9e802_large.svg"
-            alt=""
-          />
-          <p>Apple Pencil</p>
+          <img src={props.img6} alt="" />
+          <p>{props.brandTitle}</p>
+          <p>{props.SeriesStudio}</p>
         </div>
 
         <div className="header_book_items">
-          <img
-            src="https://www.apple.com/v/ipad/home/bw/images/chapternav/keyboard_dark__dtedyad0xnqu_large.svg"
-            alt=""
-          />
-          <p>Keyboards</p>
+          <img src={props.img7} alt="" />
+          <p></p>
         </div>
 
         <div className="header_book_items">
-          <img
-            src="https://www.apple.com/v/ipad/home/bw/images/chapternav/airpods_dark__ccoezo86z37m_large.svg"
-            alt=""
-          />
+          <img src={props.img8} alt="" />
           <p>Airpod</p>
         </div>
 
         <div className="header_book_items">
-          <img
-            src="https://www.apple.com/v/ipad/home/bw/images/chapternav/ipad_acc_dark__bo0a4ftei9au_large.svg"
-            alt=""
-          />
+          <img src={props.img9} alt="" />
           <p>Accessories</p>
         </div>
 
         <div className="header_book_items">
-          <img
-            src="https://www.apple.com/v/ipad/home/bw/images/chapternav/ipados_dark__emr7k8pfle4i_large.svg"
-            alt=""
-          />
+          <img src={props.img10} alt="" />
           <p>iPadOS</p>
         </div>
 
         <div className="header_book_items">
-          <img
-            src="https://www.apple.com/v/ipad/home/bw/images/chapternav/shop_ipad_dark__ekfl60g78g4m_large.svg"
-            alt=""
-          />
+          <img src={props.img11} alt="" />
           <p>Shop iPad</p>
         </div>
       </div>

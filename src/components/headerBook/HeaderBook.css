@@ -1,5 +1,5 @@
 .header_book {
-  background-color: black;
+  background-color: rgb(224, 224, 224);
   color: white;
 }
 
@@ -32,4 +32,9 @@
 .header_book_items:hover {
   cursor: pointer;
   color: rgb(83, 83, 253);
+}
+
+/* Watch Section */
+.watch_section p {
+  color: gray;
 }
