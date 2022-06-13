@@ -38,7 +38,10 @@ const Header = () => {
           <li>Watch</li>
         </Link>
 
-        <li>AirPods</li>
+        <Link to="/airpods">
+          <li>AirPods</li>
+        </Link>
+
         <li>TV & Home</li>
         <li>Only on Apple</li>
         <li>Accessories</li>

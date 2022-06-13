@@ -8,6 +8,7 @@ import Iphone from "./pages/Iphone";
 import Ipad from "./pages/Ipad";
 import Store from "./pages/Store";
 import WatchPage from "./pages/WatchPage";
+import AirPodPage from "./pages/AirPodPage";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="/ipad" element={<Ipad />} />
           <Route path="/iphone" element={<Iphone />} />
           <Route path="/watch" element={<WatchPage />} />
+          <Route path="/airpods" element={<AirPodPage />} />
         </Routes>
         {/* <Footer /> */}
       </BrowserRouter>

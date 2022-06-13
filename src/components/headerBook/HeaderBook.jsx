@@ -7,62 +7,62 @@ const HeaderBook = (props) => {
         <div className="header_book_items">
           <img src={props.img1} alt="" />
           <p>{props.brandTitle}</p>
-          <p>{props.Series7}</p>
+          <p>{props.model1}</p>
         </div>
 
         <div className="header_book_items">
           <img src={props.img2} alt="" />
           <p>{props.brandTitle}</p>
-          <p>{props.SeriesSE}</p>
+          <p>{props.model2}</p>
         </div>
 
         <div className="header_book_items">
           <img src={props.img3} alt="" />
           <p>{props.brandTitle}</p>
-          <p>{props.Series3}</p>
+          <p>{props.model3}</p>
         </div>
 
         <div className="header_book_items">
           <img src={props.img4} alt="" />
-          <p>{props.brandTitle}i</p>
-          <p>{props.SeriesNike}</p>
+          <p>{props.brandTitle}</p>
+          <p>{props.model4}</p>
         </div>
 
         <div className={`header_book_items `}>
           <img src={props.img5} alt="" />
           <p>{props.brandTitle}</p>
-          <p>{props.SeriesHermes}</p>
+          <p>{props.model5}</p>
         </div>
 
         <div className="header_book_items">
           <img src={props.img6} alt="" />
           <p>{props.brandTitle}</p>
-          <p>{props.SeriesStudio}</p>
+          <p>{props.model6}</p>
         </div>
 
         <div className="header_book_items">
           <img src={props.img7} alt="" />
-          <p></p>
+          <p>{props.compare}</p>
         </div>
 
         <div className="header_book_items">
           <img src={props.img8} alt="" />
-          <p>Airpod</p>
+          <p>{props.bands}</p>
         </div>
 
         <div className="header_book_items">
           <img src={props.img9} alt="" />
-          <p>Accessories</p>
+          <p>{props.accessories}</p>
         </div>
 
         <div className="header_book_items">
           <img src={props.img10} alt="" />
-          <p>iPadOS</p>
+          <p>{props.appleFitness}</p>
         </div>
 
         <div className="header_book_items">
           <img src={props.img11} alt="" />
-          <p>Shop iPad</p>
+          <p>{props.shopWatch}</p>
         </div>
       </div>
     </div>
