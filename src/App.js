@@ -7,6 +7,7 @@ import MacPage from "./pages/MacPage";
 import Iphone from "./pages/Iphone";
 import Ipad from "./pages/Ipad";
 import Store from "./pages/Store";
+import WatchPage from "./pages/WatchPage";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/macpage" element={<MacPage />} />
           <Route path="/ipad" element={<Ipad />} />
           <Route path="/iphone" element={<Iphone />} />
+          <Route path="/watch" element={<WatchPage />} />
         </Routes>
         {/* <Footer /> */}
       </BrowserRouter>
