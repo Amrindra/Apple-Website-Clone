@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 10px;
+  scroll-behavior: smooth;
 }
 
 .apple_tv_banner_img {

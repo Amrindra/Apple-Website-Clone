@@ -50,8 +50,14 @@ const Header = () => {
           <li>Only on Apple</li>
         </Link>
 
-        <li>Accessories</li>
-        <li>Support</li>
+        <Link to="/accessories">
+          <li>Accessories</li>
+        </Link>
+
+        <Link to="/support">
+          <li>Support</li>
+        </Link>
+
         <li>
           <i className="fa-solid fa-magnifying-glass"></i>
         </li>
