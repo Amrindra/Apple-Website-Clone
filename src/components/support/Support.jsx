@@ -1,6 +1,9 @@
+import { useState } from "react";
 import "./Support.css";
 
 const Support = () => {
+  const [showSearch, setShowSearch] = useState(false);
+
   return (
     <div className="support">
       <div className="support_container">
@@ -107,25 +110,31 @@ const Support = () => {
           <div className="support_search">
             <div className="support_search_wrapper">
               <h1>Search for topics</h1>
-              <div className="support_search_input_wrapper">
+              <div
+                className="support_search_input_wrapper"
+                onClick={() => setShowSearch(!showSearch)}
+              >
                 <div className="support_search_input">
                   <i className="fa-solid fa-magnifying-glass icon"></i>
                   <input type="text" placeholder="Search support" />
                 </div>
 
-                <div className="support_search_list_wrapper">
-                  <h3>Quick Links</h3>
-                  <ul className="support_search_lists">
-                    <li>If you forgot your apple ID password</li>
-                    <li>
-                      If you forgot the passcode for your iPhone, iPad, or iPod
-                      touch
-                    </li>
-                    <li>View, change, or cancel your subscriptions</li>
-                    <li>Update iOS on your device</li>
-                    <li>Contact Apple Support</li>
-                  </ul>
-                </div>
+                {/* This section will not show until user clicks on search input */}
+                {showSearch && (
+                  <div className="support_search_list_wrapper">
+                    <h3>Quick Links</h3>
+                    <ul className="support_search_lists">
+                      <li>If you forgot your apple ID password</li>
+                      <li>
+                        If you forgot the passcode for your iPhone, iPad, or
+                        iPod touch
+                      </li>
+                      <li>View, change, or cancel your subscriptions</li>
+                      <li>Update iOS on your device</li>
+                      <li>Contact Apple Support</li>
+                    </ul>
+                  </div>
+                )}
               </div>
             </div>
           </div>
