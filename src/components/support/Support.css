@@ -181,3 +181,46 @@ hr {
   color: var(--blue-color);
   cursor: pointer;
 }
+
+/* SUPPORT_CONTENT_LINK SECTION */
+.support_content_link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.support_content_link_wrapper {
+  display: flex;
+
+  gap: 100px;
+}
+
+.support_content_link_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
+
+.support_content_link_item img {
+  width: 40%;
+}
+
+.suport_content_link_block h3 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  padding-top: 15px;
+}
+
+.suport_content_link_block p {
+  font-size: 1.2rem;
+  color: gray;
+  padding: 15px 0;
+}
+
+.suport_content_link_block span {
+  font-size: 1.5rem;
+  color: var(--blue-color);
+}

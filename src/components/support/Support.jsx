@@ -140,6 +140,40 @@ const Support = () => {
           </div>
 
           <hr />
+
+          <div className="support_content_link">
+            <div className="support_content_link_wrapper">
+              <div className="support_content_link_item">
+                <img
+                  src="https://support.apple.com/content/dam/edam/applecare/images/en_US/psp/content-link-shareplay_2x.png"
+                  alt=""
+                />
+                <div className="suport_content_link_block">
+                  <h3>Stay connected with FaceTime</h3>
+                  <p>
+                    Share experiences, work together, join a FaceTime call from
+                    any web browser, and more.
+                  </p>
+                  <span>Get started {">"}</span>
+                </div>
+              </div>
+
+              <div className="support_content_link_item">
+                <img
+                  src="https://support.apple.com/content/dam/edam/applecare/images/en_US/psp/content-link-watch-workout_2x.png"
+                  alt=""
+                />
+                <div className="suport_content_link_block">
+                  <h3>Work out with your Apple Watch</h3>
+                  <p>
+                    Get started on your fitness and wellness journey, and track
+                    all the ways you’re active.
+                  </p>
+                  <span>Start moving {">"}</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
