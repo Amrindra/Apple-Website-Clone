@@ -113,17 +113,19 @@ const Support = () => {
                   <input type="text" placeholder="Search support" />
                 </div>
 
-                <ul className="support_search_lists">
+                <div className="support_search_list_wrapper">
                   <h3>Quick Links</h3>
-                  <li>If you forgot your apple ID password</li>
-                  <li>
-                    If you forgot the passcode for your iPhone, iPad, or iPod
-                    touch
-                  </li>
-                  <li>View, change, or cancel your subscriptions</li>
-                  <li>Update iOS on your device</li>
-                  <li>Contact Apple Support</li>
-                </ul>
+                  <ul className="support_search_lists">
+                    <li>If you forgot your apple ID password</li>
+                    <li>
+                      If you forgot the passcode for your iPhone, iPad, or iPod
+                      touch
+                    </li>
+                    <li>View, change, or cancel your subscriptions</li>
+                    <li>Update iOS on your device</li>
+                    <li>Contact Apple Support</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
