@@ -67,6 +67,44 @@ const Support = () => {
             </div>
           </div>
         </div>
+
+        <div className="support_repair_section">
+          <hr />
+          <div className="support_repair_wrapper">
+            <div className="support_repair_item">
+              <img
+                src="https://support.apple.com/content/dam/edam/applecare/images/en_US/promo_icons/promo-icon-homepage-password_2x.png"
+                alt=""
+              />
+              <div className="support_repair_item_text_wrapper">
+                <p>Forget Apple ID or</p>
+                <p>password {">"}</p>
+              </div>
+            </div>
+
+            <div className="support_repair_item middle">
+              <img
+                src="https://support.apple.com/content/dam/edam/applecare/images/en_US/promo_icons/promo-icon-homepage-repair_2x.png"
+                alt=""
+              />
+              <div className="support_repair_item_text_wrapper">
+                <p>Apple Repair {">"} </p>
+              </div>
+            </div>
+
+            <div className="support_repair_item">
+              <img
+                src="https://support.apple.com/content/dam/edam/applecare/images/en_US/promo_icons/promo-icon-homepage-subscriptions_2x.png"
+                alt=""
+              />
+              <div className="support_repair_item_text_wrapper">
+                <p>Billing and subscriptions {">"}</p>
+              </div>
+            </div>
+          </div>
+
+          <hr />
+        </div>
       </div>
     </div>
   );
