@@ -1,12 +1,14 @@
 .support_container {
   position: relative;
   background-color: white;
+  /* height: 100vh; */
 }
 
 .support_header {
   background-image: url("https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/psp-hero-banner-homepage-welcome.image.large_2x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 60vh;
   color: white;
@@ -15,13 +17,14 @@
   padding-top: 200px;
 }
 
-@media (max-width: 1458px) {
+@media (max-width: 1280px) {
   .support_header {
-    background-image: url("https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/psp-hero-banner-homepage-welcome.image.small_2x.jpg");
-    width: 100%;
-    height: 60vh;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url("https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/psp-hero-banner-homepage-welcome.image.small_2x.jpg")
+      cover center no-repeat;
+    height: 100vh;
+    width: 100vw;
+
+    /* background-attachment: fixed; */
   }
 }
 
@@ -96,4 +99,72 @@ hr {
   height: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* SEARCH SUPPPORT SECTION */
+.support_search {
+  width: 100%;
+  padding: 60px 100px;
+}
+
+.support_search_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.support_search_input_wrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  gap: 10px;
+  width: 60%;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.support_search_input {
+  /* height: 55px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.support_search_input .icon {
+  color: lightgray;
+}
+
+.support_search_input input {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 50px;
+}
+
+.support_search_input input::placeholder {
+  color: lightgray;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.support_search_lists {
+  padding-top: 10px;
+}
+
+.support_search_lists h3 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.support_search_lists h3,
+.support_search_lists li {
+  color: gray;
+  padding: 10px;
+}
+
+.support_search_lists li {
+  margin-left: 25px;
 }
