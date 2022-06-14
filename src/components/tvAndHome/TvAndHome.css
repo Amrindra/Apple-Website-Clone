@@ -7,12 +7,7 @@
 }
 
 .apple_tv_banner_img {
-  width: 80%;
-  object-fit: cover;
-}
-
-.tvAndHome_hero img {
-  /* width: 100%; */
+  width: 90%;
   object-fit: cover;
 }
 
@@ -25,6 +20,13 @@
   max-width: 1024px;
   margin-right: auto;
   margin-left: auto;
+  overflow: hidden;
+}
+
+.tvAndHome_hero img {
+  width: 140%;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 .tvAndHome_hero_title {
@@ -40,10 +42,11 @@
   text-align: center;
 }
 
+/* CARD WRAPPER SECTION */
 .tvAndHome_card_wrapper {
   display: flex;
   margin-top: 100px;
-  gap: 40px;
+  gap: 1.2rem;
 }
 
 .tvAndHome_card_left,
@@ -54,8 +57,9 @@
   justify-content: center;
   align-items: center;
   background-color: white;
-  padding: 60px 0;
   border-radius: 15px;
+  padding-top: 60px;
+  overflow: hidden;
 }
 
 .card_left_desc {
@@ -100,4 +104,50 @@
   padding-left: 20px;
   color: rgb(104, 104, 244);
   cursor: pointer;
+}
+
+/* HOME CARD SECTION */
+.tvAndHome_card_home_wrapper {
+}
+
+.tvAndHome_card_home {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  margin-top: 1.2rem;
+  border-radius: 15px;
+}
+
+.tvAndHome_card_home_left {
+  flex: 1;
+  width: 50%;
+}
+
+.tvAndHome_card_home_img {
+  object-fit: cover;
+  padding: 70px;
+}
+
+.tvAndHome_card_home_right {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tvAndHome_card_home_right h1 {
+  font-size: 2.5rem;
+  padding: 20px;
+  max-width: 340px;
+  margin-left: 40px;
+}
+
+.tvAndHome_card_home_right p {
+  font-size: 1.4rem;
+}
+
+.learn_more {
+  color: rgb(89, 89, 190);
+  font-size: 1.4rem;
 }
