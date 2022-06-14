@@ -102,7 +102,6 @@ const Support = () => {
               </div>
             </div>
           </div>
-
           <hr />
         </div>
       </div>

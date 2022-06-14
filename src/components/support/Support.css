@@ -4,15 +4,25 @@
 }
 
 .support_header {
-  background-image: url("https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/psp-hero-banner-homepage-welcome.image.small_2x.jpg");
+  background-image: url("https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/psp-hero-banner-homepage-welcome.image.large_2x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
+  height: 60vh;
   color: white;
   font-size: 1.4rem;
   text-align: center;
   padding-top: 200px;
+}
+
+@media (max-width: 1458px) {
+  .support_header {
+    background-image: url("https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/psp-hero-banner-homepage-welcome.image.small_2x.jpg");
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 
 .support_proudct_nav {
@@ -43,7 +53,8 @@
 /* REPAIR SECTION */
 .support_repair_section {
   width: 100%;
-  height: 50vh;
+  padding-top: 80px;
+  /* height: 50vh; */
 }
 
 .support_repair_wrapper {
@@ -51,7 +62,7 @@
   /* justify-content: space-around; */
   align-items: center;
   justify-content: center;
-  padding: 100px;
+  padding: 60px 100px;
 }
 
 .support_repair_item {
@@ -63,8 +74,8 @@
 }
 
 .support_repair_item.middle {
-  border-right: 1px solid gray;
-  border-left: 1px solid gray;
+  border-right: 1px solid lightgray;
+  border-left: 1px solid lightgray;
 }
 
 .support_repair_item img {
@@ -77,4 +88,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: var(--blue-color);
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
