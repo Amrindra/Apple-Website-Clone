@@ -1,5 +1,6 @@
 .support_container {
   position: relative;
+  background-color: white;
 }
 
 .support_header {
@@ -12,4 +13,25 @@
   font-size: 1.4rem;
   text-align: center;
   padding-top: 200px;
+}
+
+.support_proudct_nav_warpper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 735px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+}
+
+.support_proudct_nav_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.support_proudct_nav_item img {
+  height: auto;
+  width: 70px;
+  margin-bottom: 10px;
 }
