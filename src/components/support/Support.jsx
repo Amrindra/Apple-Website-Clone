@@ -174,6 +174,38 @@ const Support = () => {
               </div>
             </div>
           </div>
+
+          <hr />
+
+          <div className="support_virtual">
+            <div className="support_virtual_wrapper">
+              <div className="suport_content_link_block">
+                <h3>Work out with your Apple Watch</h3>
+                <p>
+                  Get started on your fitness and wellness journey, and track
+                  all the ways you’re active.
+                </p>
+                <span>Sign up {">"}</span>
+              </div>
+              <img
+                src="https://support.apple.com/content/dam/edam/applecare/images/en_US/psp/featured-section-promo-todayatapple_2x.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="get_support">
+        <div className="get_support_wrapper">
+          <h3>Get support</h3>
+          <p className="get_support_desc">
+            Choose a product and we’ll find you the best solution.
+          </p>
+          <span>Sign up {">"}</span>
+          <p className="get_support_button">
+            Download the Apple Support app {">"}
+          </p>
         </div>
       </div>
     </div>
