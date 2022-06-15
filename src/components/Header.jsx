@@ -75,7 +75,10 @@ const Header = () => {
               <div className="header_dropbox">
                 <h3>Your bag is empty.</h3>
                 <div className="header_dropbox_wrapper">
-                  <ul className="header_dropbox_lists">
+                  <ul
+                    className="header_dropbox_lists"
+                    onClick={() => setShowDropBox(!showDropBox)}
+                  >
                     <li>Bag</li>
                     <li>Saved Items</li>
                     <li>Orders</li>
