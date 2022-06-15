@@ -12,6 +12,7 @@ import AirPodPage from "./pages/AirPodPage";
 import OnlyOnApplePage from "./pages/OnlyOnApplePage";
 import TvAndHomePage from "./pages/TvAndHomePage";
 import SupportPage from "./pages/SupportPage";
+import AccessoriesPage from "./pages/AccessoriesPage";
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
           <Route path="/onlyonapples" element={<OnlyOnApplePage />} />
           <Route path="/tvandhome" element={<TvAndHomePage />} />
           <Route path="/support" element={<SupportPage />} />
+          <Route path="/accessories" element={<AccessoriesPage />} />
         </Routes>
         {/* <Footer /> */}
       </BrowserRouter>
