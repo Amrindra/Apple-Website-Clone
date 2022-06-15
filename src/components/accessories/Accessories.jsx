@@ -18,6 +18,11 @@ const Accessories = () => {
             <span>Shop MagSafe {">"}</span>
           </div>
         </div>
+
+        <div className="accessories_search_section">
+          <h1>test</h1>
+          <input type="text" />
+        </div>
       </div>
     </div>
   );
