@@ -180,11 +180,11 @@
       }
     }
 
-    //Card Section
-    .accessories_card_section{
+    //Feature Card Section
+    .accessories_card_feature_section{
       background-color: white;
      
-      .accessories_card_section_container{
+      .accessories_card_feature_section_container{
       h1{
         font-size: 3rem;
         padding-top: 100px;
@@ -192,12 +192,12 @@
         text-align: center;
       }
       
-      .accessories_card_section_wrapper{
+      .accessories_card_feature_section_wrapper{
         max-width: 1024px;
         margin-left: auto;
         margin-right: auto;
 
-        .accessories_card_top{
+        .accessories_card_feature_top{
           display: flex;
           justify-content: center;
           align-items: center;
@@ -213,7 +213,7 @@
         }
         
       } 
-          .accessories_card_bottom{
+          .accessories_card_feature_bottom{
             display: flex;
             justify-content: center;
             align-items: center;

@@ -72,23 +72,23 @@ const Accessories = () => {
         {/* Browse by product and category section */}
         {showBrowseProductCategory ? <BrowseByProduct /> : <BrowseByCategory />}
 
-        <section className="accessories_card_section">
-          <div className="accessories_card_section_container">
+        <section className="accessories_card_feature_section">
+          <div className="accessories_card_feature_section_container">
             <h1>Featured Apple Accessories</h1>
-            <div className="accessories_card_section_wrapper">
-              <div className="accessories_card_top">
-                <div className="card1">
-                  <AccessoryCard className="card_1" title="" />
+            <div className="accessories_card_feature_section_wrapper">
+              <div className="accessories_card_feature_top">
+                <div className="feature_card1">
+                  <AccessoryCard className="feature_card_1" title="" />
                 </div>
-                <div className="card2">
-                  <AccessoryCard className="card_2" />
+                <div className="feature_card2">
+                  <AccessoryCard className="feature_card_2" />
                 </div>
               </div>
             </div>
-            <div className="accessories_card_bottom">
-              <AccessoryCard className="card_3" />
-              <AccessoryCard className="card_4" />
-              <AccessoryCard className="card_5" />
+            <div className="accessories_card_feature_bottom">
+              <AccessoryCard className="feature_card_3" />
+              <AccessoryCard className="feature_card_4" />
+              <AccessoryCard className="feature_card_5" />
             </div>
           </div>
         </section>
