@@ -180,7 +180,49 @@
       }
     }
 
-    
+    //Card Section
+    .accessories_card_section{
+      background-color: white;
+     
+      .accessories_card_section_container{
+      h1{
+        font-size: 3rem;
+        padding-top: 100px;
+        padding-bottom: 30px;
+        text-align: center;
+      }
+      
+      .accessories_card_section_wrapper{
+        max-width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+
+        .accessories_card_top{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 1rem;
+
+          // .card1{
+          //   flex: 1;
+          // }
+
+          // .card2{
+          //   flex: 2;
+          // }
+        }
+        
+      } 
+          .accessories_card_bottom{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem ;
+            padding-top: 1rem;
+          }  
+    }
+  }
+
 // RESPONSIVE DESIGN SECTION
     @media (max-width: 1700px){
       .accessories_hero_banner_img{

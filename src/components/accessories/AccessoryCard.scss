@@ -1,5 +1,5 @@
 .accessory_card{
-  height: 100vh;
+  // height: 100vh;
   background-color: white;
 
 
@@ -10,9 +10,16 @@
     align-items: center;
     background-color: #f2f2f2;
     padding: 35px 0;
-    width: 500px;
+    // width: 400px;
+    height: 700px;
     border-radius: 20px;
-  }
+
+    .accessory_card_img{
+      img{
+        width: 300px;
+      }
+    }
+  
 
   .accessory_card_content{
     display: flex;
@@ -44,6 +51,16 @@
       img{
         width: 25px;
       }
+      }
     }
   }
+}
+
+//FROM PROPS 
+.card_2{
+  width: 820px;
+}
+
+.card_1, .card_3, .card_4, .card_5{
+  width: 400px;
 }

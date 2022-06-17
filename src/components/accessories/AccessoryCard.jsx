@@ -1,8 +1,8 @@
 import "./AccessoryCard.scss";
 
-const AccessoryCard = () => {
+const AccessoryCard = (props) => {
   return (
-    <div className="accessory_card">
+    <div className={`accessory_card ${props.className}`}>
       <div className="accessory_card_container">
         <div className="accessory_card_img">
           <img
@@ -11,7 +11,7 @@ const AccessoryCard = () => {
           />
         </div>
 
-        <div className="accessory_card_content">
+        <div className={`accessory_card_content `}>
           <p className="card_new">New</p>
           <p className="card_title">Pride Edition Nike Sport Loop</p>
           <p className="card_price">49.00$</p>
