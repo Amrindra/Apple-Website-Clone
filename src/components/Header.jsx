@@ -139,7 +139,10 @@ const Header = () => {
           <li>AirPods</li>
           <li>TV & Home</li>
           <li>Only on Apple</li>
-          <li>Accessories</li>
+          <Link to="/accessories">
+            <li>Accessories</li>
+          </Link>
+
           <li className="mobile-screen-support">Support</li>
         </ul>
       )}
