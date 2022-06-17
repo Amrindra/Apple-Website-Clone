@@ -46,6 +46,7 @@ const Accessories = () => {
         <div className="accessories_browse">
           <div className="accessories_browse_wrapper">
             <button
+              className={showBrowseProductCategory && "current"}
               onClick={() =>
                 setShowBrowseProductCategory(!showBrowseProductCategory)
               }
@@ -53,6 +54,7 @@ const Accessories = () => {
               Browser by Product
             </button>
             <button
+              className={showBrowseProductCategory ? "" : "current"}
               onClick={() =>
                 setShowBrowseProductCategory(!showBrowseProductCategory)
               }
@@ -61,6 +63,7 @@ const Accessories = () => {
             </button>
           </div>
         </div>
+        <hr />
 
         {/* Browse by product and category section */}
         {showBrowseProductCategory ? <BrowseByProduct /> : <BrowseByCategory />}
