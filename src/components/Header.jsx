@@ -107,8 +107,8 @@ const Header = () => {
         </Link>
 
         <ShoppingBagIcon
-          className={click ? "mobile-cart" : "shopping_cart_icon_on_mobile"}
-          onClick={handleClick}
+        // className={click ? "mobile-cart" : "shopping_cart_icon_on_mobile"}
+        // onClick={handleClick}
         />
       </nav>
 
