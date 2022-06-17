@@ -90,6 +90,15 @@ const Accessories = () => {
               <AccessoryCard className="feature_card_4" />
               <AccessoryCard className="feature_card_5" />
             </div>
+
+            <div className="accessories_card_headphone_section">
+              <h3>Wireless Headphones</h3>
+              <div className="accessories_card_headphone">
+                <AccessoryCard className="feature_card_3" />
+                <AccessoryCard className="feature_card_4" />
+                <AccessoryCard className="feature_card_5" />
+              </div>
+            </div>
           </div>
         </section>
       </div>

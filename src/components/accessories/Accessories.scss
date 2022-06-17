@@ -213,15 +213,25 @@
         }
         
       } 
-          .accessories_card_feature_bottom{
+          .accessories_card_feature_bottom, .accessories_card_headphone{
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 1rem ;
             padding-top: 1rem;
           }  
+
+          .accessories_card_headphone_section{
+            h3{
+              font-size: 3rem;
+              text-align: center;
+              padding: 50px;
+            }
+          }
     }
   }
+
+
 
 // RESPONSIVE DESIGN SECTION
     @media (max-width: 1700px){
