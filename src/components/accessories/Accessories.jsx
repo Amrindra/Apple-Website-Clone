@@ -2,12 +2,14 @@ import "./Accessories.scss";
 import { useState } from "react";
 import BrowseByProduct from "./BrowseByProduct";
 import BrowseByCategory from "./BrowseByCategory";
+import AccessoryCard from "./AccessoryCard";
 
 const Accessories = () => {
   const [inputClick, setInputClick] = useState(true);
   const [showBrowseProductCategory, setShowBrowseProductCategory] = useState(
     true
   );
+
   return (
     <div className={inputClick ? "accessories" : " accessories active"}>
       <div className="accessories_container">
@@ -55,7 +57,7 @@ const Accessories = () => {
               Browser by Product
             </button>
             <button
-              // className={showBrowseProductCategory ? "" : "current"}
+              className={showBrowseProductCategory ? "notActive" : "current"}
               onClick={() =>
                 setShowBrowseProductCategory(!showBrowseProductCategory)
               }
@@ -65,10 +67,18 @@ const Accessories = () => {
             </button>
           </div>
         </div>
-        <hr />
+        {/* <hr /> */}
 
         {/* Browse by product and category section */}
         {showBrowseProductCategory ? <BrowseByProduct /> : <BrowseByCategory />}
+
+        <section className="accessories_card_section">
+          <div className="accessories_card_section_wrapper">
+            <h1>Featured Apple Accessories</h1>
+            <AccessoryCard />
+            {/* <AccessoryCard /> */}
+          </div>
+        </section>
       </div>
     </div>
   );

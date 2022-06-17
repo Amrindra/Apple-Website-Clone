@@ -1,0 +1,49 @@
+.accessory_card{
+  height: 100vh;
+  background-color: white;
+
+
+  .accessory_card_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 35px 0;
+    width: 500px;
+    border-radius: 20px;
+  }
+
+  .accessory_card_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .card_new{
+      color: orange;
+    }
+
+    .card_title{
+      font-size: 1.5rem;
+      font-weight: bold;
+      padding-top: 10px;
+    }
+
+    .card_price{
+      font-size: 1.2rem;
+      padding: 50px 0;
+    }
+
+    .card_color_options{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+
+      img{
+        width: 25px;
+      }
+    }
+  }
+}

@@ -140,6 +140,7 @@
         padding-bottom: 20px;
         width: 100%;
         position: relative;
+        border-bottom: 1px solid lightgray;
         // padding: 20px 400px;
 
         // .nav_item.current::after{
@@ -147,8 +148,24 @@
         // }
         
         .current:disabled{
+          font-weight: bold;
           color: black;
+          cursor: default;
+
+          // &[disabled]::after{
+          //   left: 285px;
+          //   position: absolute;
+          //   bottom: -1px;
+          //   width: 170px;
+          //   // border-bottom: 1px solid transparent;
+          //   border-bottom: 2px solid black;
+          //   content: "";
+          // }
         }
+
+        // .current[disabled]::after{
+        //   display: none;
+        // }
         
         button{
           border: none;
@@ -159,14 +176,6 @@
           cursor: pointer;
           // width:200px;
           
-          // &::after{
-          //   left: 270px;
-          //   position: absolute;
-          //   bottom: -1px;
-          //   width: 180px;
-          //   border-bottom: 1px solid transparent;
-          //   content: "";
-          // }
         }
       }
     }

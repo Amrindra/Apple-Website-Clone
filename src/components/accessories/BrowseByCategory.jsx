@@ -49,7 +49,9 @@ const BrowseByCategory = () => {
               />
             </div>
           </div>
-          <h3>Headphones & Speakers</h3>
+          <h3>
+            Headphones <br /> & Speakers
+          </h3>
         </div>
 
         <div className="browse_category_item">
