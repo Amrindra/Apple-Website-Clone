@@ -50,14 +50,16 @@ const Accessories = () => {
               onClick={() =>
                 setShowBrowseProductCategory(!showBrowseProductCategory)
               }
+              disabled={showBrowseProductCategory}
             >
               Browser by Product
             </button>
             <button
-              className={showBrowseProductCategory ? "" : "current"}
+              // className={showBrowseProductCategory ? "" : "current"}
               onClick={() =>
                 setShowBrowseProductCategory(!showBrowseProductCategory)
               }
+              disabled={!showBrowseProductCategory}
             >
               Browser by Category
             </button>
