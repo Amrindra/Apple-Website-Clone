@@ -1,5 +1,4 @@
 .accessory_card{
-  // height: 100vh;
   background-color: white;
 
 
@@ -10,7 +9,6 @@
     align-items: center;
     background-color: #f2f2f2;
     padding: 35px 0;
-    // width: 400px;
     height: 650px;
     border-radius: 20px;
 
@@ -27,14 +25,17 @@
     justify-content: center;
     align-items: center;
 
+
     .card_new{
       color: orange;
     }
 
     .card_title{
-      font-size: 1.5rem;
+      font-size: .9rem;
       font-weight: bold;
       padding-top: 10px;
+      max-width: 250px;
+      text-align: center;
     }
 
     .card_price{
@@ -46,10 +47,10 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 20px;
+      gap: 10px;
 
       img{
-        width: 25px;
+        width: 15px;
       }
       }
     }
