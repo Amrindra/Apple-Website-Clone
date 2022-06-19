@@ -1,3 +1,7 @@
+.airPod_container {
+  width: 100%;
+}
+
 .airPod_header {
   background-color: rgb(224, 224, 224);
   color: gray;
@@ -32,4 +36,81 @@
 .airPod_header_items:hover {
   cursor: pointer;
   color: rgb(99, 99, 179);
+}
+
+/* BANNER SECTION */
+.airPod_hero_banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin: 30px;
+  border-radius: 15px;
+  position: relative;
+}
+
+/* .airPod_hero_banner video {
+  width: 100%;
+  height: 100%;
+} */
+
+.airPod_banner_img .airPod_banner_img_wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+  gap: 50px;
+}
+
+.airPod_banner_img .airPod_banner_img_wrapper img {
+  width: 400px;
+}
+
+.airPod_banner_content_wrapper {
+  position: absolute;
+  bottom: 30px;
+}
+
+.airPod_banner_content {
+  display: flex;
+  justify-content: center;
+}
+
+.airPod_banner_content_top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.airPod_banner_content_top h1 {
+  font-size: 120px;
+  color: #f5f5f7;
+  letter-spacing: -0.3rem;
+}
+
+.airPod_banner_content_top p {
+  font-size: 21px;
+  color: white;
+}
+
+.airPod_banner_content_bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 200px;
+  padding-bottom: 30px;
+}
+
+.airPod_banner_content_bottom button {
+  border: none;
+  background-color: #ffffff;
+  padding: 12px 22px;
+  border-radius: 50px;
+  font-size: 17px;
+}
+
+.airPod_banner_content_bottom p {
+  color: white;
+  font-size: 21px;
 }
