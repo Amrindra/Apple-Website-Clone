@@ -114,3 +114,23 @@
   color: white;
   font-size: 21px;
 }
+
+/* From Props */
+.airPod_max {
+  background-color: white;
+  height: 90vh;
+}
+
+.airPod_max .airPod_banner_img_wrapper {
+  position: relative;
+}
+
+.airPod_max .airPod_banner_img_wrapper .airPod_img_1 {
+  max-width: 100%x;
+  position: absolute;
+}
+
+.airPod_max .airPod_banner_img_wrapper .airPod_img_2 {
+  margin-top: 120px;
+  width: 90%;
+}
