@@ -278,3 +278,13 @@
     padding-top: 0;
   }
 }
+
+@media (max-width: 380px) {
+  .airPod_banner_img .airPod_banner_img_wrapper img {
+    width: 90px;
+  }
+
+  .airPod_banner_content_top h1 {
+    font-size: 40px;
+  }
+}
