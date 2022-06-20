@@ -22,6 +22,7 @@ const AirPod = (props) => {
                 <h1>
                   {props.modelTitle} <span>{props.pro}</span>
                 </h1>
+                <h3>{props.generation}</h3>
                 <p>$269</p>
               </div>
 
