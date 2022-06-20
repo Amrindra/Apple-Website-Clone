@@ -5,28 +5,6 @@
   margin-right: auto;
 }
 
-.airPod_header_items {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 0.7rem;
-  padding: 10px 0;
-}
-
-.airPod_header img {
-  height: 50px;
-}
-
-.airPod_header .new {
-  color: rgb(194, 17, 17);
-  font-weight: 300;
-}
-
-.airPod_header_items:hover {
-  cursor: pointer;
-  color: rgb(99, 99, 179);
-}
-
 /* BANNER SECTION */
 .airPod_hero_banner {
   display: flex;
@@ -142,19 +120,19 @@
 /* ****2nd Generation****** */
 .airPods_2nd_gen {
   background-color: #fff;
-  height: 900px;
+  height: 700px;
   overflow: hidden;
 }
 
 .airPods_2nd_gen .airPod_banner_img_wrapper .airPod_img_1,
 .airPods_2nd_gen .airPod_banner_img_wrapper .airPod_img_2 {
   position: absolute;
-  width: 370px;
+  width: 330px;
 }
 
 .airPods_2nd_gen .airPod_img_1 {
-  top: 200px;
-  left: 250px;
+  top: 70px;
+  left: 320px;
   right: 0;
   bottom: 0;
   display: flex;
@@ -163,7 +141,7 @@
 }
 
 .airPods_2nd_gen .airPod_img_2 {
-  top: 400px;
+  top: 220px;
   right: 300px;
 }
 
@@ -186,3 +164,117 @@
 }
 
 /* ****Responsive SECTION */
+@media (max-width: 1084px) {
+  .airPod_banner_img .airPod_banner_img_wrapper img {
+    width: 300px;
+  }
+
+  .airPods_2nd_gen {
+    height: 600px;
+  }
+
+  .airPods_2nd_gen .airPod_banner_img_wrapper .airPod_img_1,
+  .airPods_2nd_gen .airPod_banner_img_wrapper .airPod_img_2 {
+    position: absolute;
+    width: 270px;
+  }
+
+  .airPods_2nd_gen .airPod_img_1 {
+    top: 100px;
+    left: 50px;
+  }
+
+  .airPods_2nd_gen .airPod_img_2 {
+    top: 200px;
+    right: 100px;
+  }
+}
+
+@media (max-width: 484px) {
+  .airPod_hero_banner {
+    height: 500px;
+  }
+
+  .airPod_banner_img .airPod_banner_img_wrapper img {
+    width: 120px;
+    margin-bottom: 200px;
+  }
+
+  .airPod_banner_content_top h1 {
+    font-size: 50px;
+    color: #f5f5f7;
+    letter-spacing: 0.1rem;
+  }
+
+  .airPod_banner_content_bottom {
+    padding-top: 20px;
+  }
+
+  .airPod_banner_content_bottom button {
+    padding: 10px 22px;
+  }
+
+  .airPod_banner_content_bottom {
+    margin-top: 10px;
+  }
+
+  /* AIRPOD MAX SECTION */
+  .airPod_max {
+    background-color: white;
+    overflow: hidden;
+  }
+
+  .airPod_max .airPod_banner_img_wrapper .airPod_img_1 {
+    width: 260px;
+    top: 30px;
+  }
+
+  .airPod_max .airPod_banner_img_wrapper .airPod_img_2 {
+    display: none;
+  }
+
+  .airPod_max .airPod_banner_content .airPod_banner_content_top h1:after {
+    content: "AirPods Max";
+    color: black;
+  }
+
+  .airPod_max .airPod_banner_content_wrapper {
+    margin-top: 100px;
+  }
+
+  .airPod_max .airPod_banner_content .airPod_banner_content_bottom {
+    margin-top: 0;
+    padding-bottom: 50px;
+  }
+
+  /* 2nd GENERATION SECTION */
+  .airPods_2nd_gen .airPod_banner_img_wrapper .airPod_img_1,
+  .airPods_2nd_gen .airPod_banner_img_wrapper .airPod_img_2 {
+    position: absolute;
+    width: 100px;
+  }
+
+  .airPods_2nd_gen .airPod_img_1 {
+    top: 20px;
+    left: 50px;
+  }
+
+  .airPods_2nd_gen .airPod_img_2 {
+    top: 50px;
+    right: 50px;
+  }
+
+  .airPods_2nd_gen .airPod_banner_content .airPod_banner_content_wrapper {
+    bottom: -5px;
+  }
+
+  .airPods_2nd_gen .airPod_banner_content_top h1 {
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+  }
+
+  .airPods_2nd_gen .airPod_banner_content_bottom {
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
