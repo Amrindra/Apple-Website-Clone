@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./Watch.scss";
 
 const Watch = () => {
-  const [changeImg, setChangeImg] = useState(false);
+  const [changeImg, setChangeImg] = useState(true);
 
   const handleClick = () => {
     setChangeImg(!changeImg);
@@ -41,7 +41,11 @@ const Watch = () => {
           <div className="watch_content_2_left">
             <img
               className="content_2_title_img"
-              src="https://www.apple.com/v/watch/ax/images/overview/display/display_s7__fj2bqp6brfiy_large.jpg"
+              src={
+                changeImg
+                  ? "https://www.apple.com/v/watch/ax/images/overview/display/display_s7__fj2bqp6brfiy_large.jpg"
+                  : "https://www.apple.com/v/watch/ax/images/overview/display/display_s3__f9n138ohv7e6_large.jpg"
+              }
               alt=""
             />
           </div>
@@ -51,8 +55,20 @@ const Watch = () => {
             <h3>Over 50% more screen area than Series 3.</h3>
 
             <div className="watch_content_toggle_buttons">
-              <button>Series 7</button>
-              <button>Series 3</button>
+              <button
+                onClick={handleClick}
+                disabled={changeImg}
+                className={changeImg ? "button active" : "button"}
+              >
+                Series 7
+              </button>
+              <button
+                onClick={handleClick}
+                disabled={!changeImg}
+                className={changeImg ? "button" : "button active"}
+              >
+                Series 3
+              </button>
             </div>
           </div>
         </div>

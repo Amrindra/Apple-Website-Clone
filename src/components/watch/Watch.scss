@@ -70,12 +70,18 @@
       background-color: #fff;
       border-radius: 15px;
 
+      .watch_content_2_left{
+        img{
+          width: 370px;
+        }
+      }
+
       
       .watch_content_2_right{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+        // align-items: center;
 
         p{
           display: flex;   
@@ -90,28 +96,33 @@
           font-size: 80px;
           max-width: 500px;
           margin-top: 20px;
-          margin-bottom: 200px;
+          margin-bottom: 100px;
         }
 
         .watch_content_toggle_buttons{
-          height: 50px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          // width: 300px;
+          height: 60px;
+          width: 300px;
           border-radius: 50px;
-          // gap: 100px;
-          background-color: bisque;
+          background-color: #f5f5f7;
           
-          button{
+          .button{
             border: none;
             height: 100%;
             width: 150px;
             border-radius: 50px;
-            background-color: black;
-            color: white;
+            color: black;
+            background: none;
+            transition: all 1s ease;
+
+            &.active{
+              background-color: black;
+              color: white;
+              transition: all 1s ease-in-out;
+
+            }
           }
-        }
+          }
+          
       }
     }
   }
