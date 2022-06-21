@@ -2,8 +2,8 @@ import "../../styles/iPhone/IphoneBanner.css";
 
 const IphoneBanner = ({ title, desc, image, price, className }) => {
   return (
-    <div className={`iphone-banner-container `}>
-      <div className={`iphone-banner-body ${className}`}>
+    <div className={`iphone-banner-container ${className}`}>
+      <div className={`iphone-banner-body`}>
         <div className="iphone_banner_top">
           <h3>{title}</h3>
           <h1>{desc}</h1>
@@ -15,6 +15,7 @@ const IphoneBanner = ({ title, desc, image, price, className }) => {
           <button className="iphone-learn-more">Learn more {">"} </button>
         </div>
       </div>
+
       <div className="iphone_banner_img_wrapper">
         <img src={image} alt="" />
       </div>

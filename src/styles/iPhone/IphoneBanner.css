@@ -58,3 +58,24 @@
   font-weight: 300;
   cursor: pointer;
 }
+
+/* From The Props */
+/* Iphone 13 section from the props */
+.iphone_13_banner .iphone-banner-body {
+  margin-bottom: 50px;
+}
+
+/* Iphone SE section from the props */
+.iphone_se_banner {
+  display: flex;
+  flex-direction: row;
+  background-color: #fbfbfd;
+}
+
+.iphone_se_banner .iphone-banner-body {
+  padding: 80px;
+}
+
+.iphone_se_banner h1 {
+  max-width: 500px;
+}

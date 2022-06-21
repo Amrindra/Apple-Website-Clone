@@ -20,7 +20,17 @@ const Iphone = () => {
         desc="Your new superpower."
         price="From $29.12/mo. for 24 mo. or $699 before trade‑in1 **"
         image="https://www.apple.com/v/iphone/home/bf/images/overview/hero/iphone_13_hero__c7g09yt0mjcm_large.png"
-        className="iphone-13-banner"
+        className="iphone_13_banner"
+      />
+
+      <Divider />
+
+      <IphoneBanner
+        title="iPhone SE"
+        desc="Love the power. Love the price."
+        price="From $17.87/mo. for 24 mo. or $429 before trade‑in1"
+        image="https://www.apple.com/v/iphone/home/bh/images/overview/hero/iphone_se_hero__gd586pazxqqa_large.jpg"
+        className="iphone_se_banner"
       />
     </div>
   );
