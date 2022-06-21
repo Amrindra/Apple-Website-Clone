@@ -1,9 +1,11 @@
 .watch{
+  background-color: #ffff;
 
   .watch_container{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #f5f5f7;
     
     .watch_content_1_wrapper{
       width: 1380px;
@@ -57,72 +59,141 @@
     }
   }
 
-  .watch_display{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .watch_display_section{
+    padding-bottom: 100px;    
+    background-color: #f5f5f7;
     
-    .watch_display_container{
-      // width: 1380px;
+    .watch_display{
       display: flex;
-      gap: 50px;
-      padding: 100px 215px;
+      justify-content: center;
+      align-items: center;
+      max-width: 1400px;
+      margin-left: auto;
+      margin-right: auto;
       background-color: #fff;
       border-radius: 15px;
-
-      .watch_content_2_left{
-        img{
-          width: 370px;
-        }
-      }
-
       
-      .watch_content_2_right{
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: center;
-        // align-items: center;
+      
+      .watch_display_container{
+        // width: 1380px;
+        display: flex;
+        gap: 50px;
+        padding: 100px 220px;
+        
+        
+        .watch_content_2_left{
+          img{
+            width: 370px;
+          }
+        }
+        
+        
+        .watch_content_2_right{
+          
+          p{
+            display: flex;   
+          }
+          
+          h3{
+            background: linear-gradient(90deg,#647284,#4b5a63);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -moz-text-fill-color: transparent;
+            -moz-background-clip: text;
+            font-size: 80px;
+            max-width: 500px;
+            margin-top: 20px;
+            margin-bottom: 100px;
+          }
+          
+          .watch_content_toggle_buttons{
+            height: 60px;
+            width: 300px;
+            border-radius: 50px;
+            background-color: #f5f5f7;
+            
+            .button{
+              border: none;
+              height: 100%;
+              width: 150px;
+              border-radius: 50px;
+              color: black;
+              background: none;
+              transition: all 1s ease;
+              
+              &.active{
+                background-color: black;
+                color: white;
+                transition: all 1s ease-in-out;
+                
+              }
+            }
+          }
+        }      
+      }
+    }
+  }
 
-        p{
-          display: flex;   
+  .watch_se_display{
+    background-color: #fff;
+    
+    
+    .watch_se_display_container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap:50px;
+      background-color: #f5f5f7;
+      margin:100px 20px 20px;
+      padding-bottom: 100px;
+      max-width: 1400px;
+      margin-left: auto;
+      margin-right: auto;
+
+      .watch_se_display_left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img{
+          width: 150px;
         }
 
         h3{
-          background: linear-gradient(90deg,#647284,#4b5a63);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          -moz-text-fill-color: transparent;
-          -moz-background-clip: text;
-          font-size: 80px;
-          max-width: 500px;
-          margin-top: 20px;
-          margin-bottom: 100px;
+          font-size: 3rem;
+          max-width:400px;
+          padding-top: 15px;
         }
 
-        .watch_content_toggle_buttons{
-          height: 60px;
-          width: 300px;
-          border-radius: 50px;
-          background-color: #f5f5f7;
-          
-          .button{
+        p{
+          font-size: 	1.3125rem;
+          font-weight: bold;
+          margin: 30px;
+        }
+
+        .watch_left_content{
+          button{
             border: none;
-            height: 100%;
-            width: 150px;
+            padding: 8px 16px;
             border-radius: 50px;
-            color: black;
-            background: none;
-            transition: all 1s ease;
-
-            &.active{
-              background-color: black;
-              color: white;
-              transition: all 1s ease-in-out;
-
-            }
+            background: #0071e3;
+            color: white;     
+            font-size: 17px; 
           }
+
+          span{
+            color: #0071e3;
+            padding-left: 20px;
           }
+        }
+      }
+
+      .watch_se_display_right{
+        img{
+          width: 600px;
           
+        }
       }
     }
   }
