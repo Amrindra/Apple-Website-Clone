@@ -10,7 +10,7 @@ const Iphone = () => {
         title="iPhone 13 Pro"
         desc="Oh. So. Pro"
         price="From $41.62/mo. for 24 mo. or $999 before trade-in"
-        image="https://www.apple.com/v/home/an/images/heroes/iphone-13-pro/hero_iphone13pro_avail__iy77cld0zwii_largetall.jpg"
+        image="https://www.apple.com/v/iphone/home/bh/images/overview/hero/iphone_13_pro_hero__gqclakbze4a6_large.png"
         className="iphone-13-pro-banner"
       />
       <Divider />

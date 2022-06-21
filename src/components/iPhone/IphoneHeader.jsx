@@ -1,6 +1,5 @@
 import "../../styles/iPhone/IphoneHeader.css";
 import DevicesHeader from "../DevicesHeader";
-import IphoneBanner from "./IphoneBanner";
 
 const IphoneHeader = () => {
   return (

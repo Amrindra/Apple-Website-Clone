@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  height: 100vh;
+  background-color: white;
 }
 
 .iphone-banner-body {
@@ -13,30 +13,29 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 5px;
-  /* position: absolute; */
+  margin-top: 100px;
 }
 
-.iphone-13-pro-banner {
-  top: 10rem;
-  position: absolute;
+.iphone-banner-body .iphone_banner_top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .iphone-banner-container h3 {
-  font-size: 2rem;
+  font-size: 1.7rem;
+  font-weight: bold;
 }
 
 .iphone-banner-container h1 {
   font-size: 4rem;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .iphone-banner-container p {
   font-size: 1.5rem;
   padding: 30px;
-}
-
-.iphone-13-banner {
-  height: 100%;
 }
 
 .iphone-button-wrappers .iphone-learn-more {
