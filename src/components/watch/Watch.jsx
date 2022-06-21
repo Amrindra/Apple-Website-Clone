@@ -1,6 +1,13 @@
+import { useState } from "react";
 import "./Watch.scss";
 
 const Watch = () => {
+  const [changeImg, setChangeImg] = useState(false);
+
+  const handleClick = () => {
+    setChangeImg(!changeImg);
+  };
+
   return (
     <div className="watch">
       <div className="watch_container">
