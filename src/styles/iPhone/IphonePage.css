@@ -10,6 +10,9 @@
 }
 
 .iphone_comparing_section_wrapper {
+  max-width: 1224px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   justify-content: center;
   align-items: center;

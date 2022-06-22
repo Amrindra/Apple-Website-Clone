@@ -1,6 +1,7 @@
 .iPhone{
   background-color: #fff;
 
+ 
   .iphone_container{
     .iphone_compare{
       text-align: center;
@@ -10,17 +11,23 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border-bottom: 1px solid lightgray;
-
         
         .iphone_compare_items{
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          border-bottom: 1px solid lightgray;
+          width: 200px;
+          height: 600px;
+
+
+          .iphone_img{
+            width: 70%;
+          }
           
           .color_option_img{
-            width: 150px;
+             width: 150px;
             padding: 30px 30px 10px 30px;
           }
 
@@ -30,7 +37,8 @@
             }
 
             .title_img{
-              padding: 20px;
+              padding: 20px 0;
+              width: 50%;
             }
 
             .iphone_desc, .price{
