@@ -29,7 +29,7 @@ const Iphone = () => {
                 <p className="iphone_desc">The ultimate iPhone.</p>
                 <p className="price">From $400</p>
                 <button>Buy</button>
-                <p>Learn more {">"}</p>
+                <p className="iphone_learn_more">Learn more {">"}</p>
               </div>
             </div>
           </div>
