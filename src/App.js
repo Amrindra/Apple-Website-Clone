@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import Homepage from "./pages/Homepage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MacPage from "./pages/MacPage";
-import Iphone from "./pages/Iphone";
+import IphonePage from "./pages/IphonePage";
 import Ipad from "./pages/Ipad";
 import Store from "./pages/Store";
 import WatchPage from "./pages/WatchPage";
@@ -24,7 +24,7 @@ export default function App() {
           <Route path="/store" element={<Store />} />
           <Route path="/macpage" element={<MacPage />} />
           <Route path="/ipad" element={<Ipad />} />
-          <Route path="/iphone" element={<Iphone />} />
+          <Route path="/iphone" element={<IphonePage />} />
           <Route path="/watch" element={<WatchPage />} />
           <Route path="/airpods" element={<AirPodPage />} />
           <Route path="/onlyonapples" element={<OnlyOnApplePage />} />

@@ -1,0 +1,49 @@
+.iPhone{
+  background-color: #fff;
+
+  .iphone_container{
+    .iphone_compare{
+      text-align: center;
+      padding-top: 50px;
+      
+      h2{
+        font-size: 48px;
+        margin-bottom: 50px;
+
+      }
+      
+      .iphone_compare_wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .iphone_compare_items{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          .color_option_img{
+            width: 150px;
+            padding: 30px 30px 10px 30px;
+          }
+
+          .iphone_compare_content{
+            .iphone_new{
+              color: orange;
+            }
+
+            .title_img{
+              padding: 20px;
+            }
+
+            .iphone_desc, .price{
+              padding-bottom: 20px;
+              font-size: 17px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

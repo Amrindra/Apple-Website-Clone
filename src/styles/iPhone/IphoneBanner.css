@@ -78,4 +78,14 @@
 
 .iphone_se_banner h1 {
   max-width: 500px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(
+    to right,
+    #1e3791 0%,
+    #2948b1 40%,
+    #3153c6 55%,
+    #385fda 60%
+  );
+  color: transparent;
 }

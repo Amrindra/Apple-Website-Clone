@@ -1,8 +1,9 @@
 import IphoneBanner from "../components/iPhone/IphoneBanner";
 import IphoneHeader from "../components/iPhone/IphoneHeader";
+import Iphone from "../components/iPhone/Iphone";
 import Divider from "../components/Divider";
 
-const Iphone = () => {
+const IphonePage = () => {
   return (
     <div>
       <IphoneHeader />
@@ -32,8 +33,10 @@ const Iphone = () => {
         image="https://www.apple.com/v/iphone/home/bh/images/overview/hero/iphone_se_hero__gd586pazxqqa_large.jpg"
         className="iphone_se_banner"
       />
+
+      <Iphone />
     </div>
   );
 };
 
-export default Iphone;
+export default IphonePage;
