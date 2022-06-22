@@ -6,23 +6,19 @@
       text-align: center;
       padding-top: 50px;
       
-      h2{
-        font-size: 48px;
-        margin-bottom: 50px;
-
-      }
-      
       .iphone_compare_wrapper{
         display: flex;
         justify-content: center;
         align-items: center;
+        border-bottom: 1px solid lightgray;
 
+        
         .iphone_compare_items{
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
-
+          
           .color_option_img{
             width: 150px;
             padding: 30px 30px 10px 30px;
@@ -46,20 +42,20 @@
               background-color: rgb(62, 140, 230);
               color: white;
               width: 70px;
-              height: 40px;
+              height: 30px;
               border-radius: 50px;
               border: none;
-              font-size: 1.3rem;
+              font-size: 1rem;
               font-weight: 300;
               cursor: pointer;
             }
 
             .iphone_learn_more{
               color: #4d96ff;
-              padding: 0 20px;
               border: none;
               background: none;
-              font-size: 1.3rem;
+              font-size: 1rem;
+              padding: 20px 0 40px 0;
               cursor: pointer;
             }
           }

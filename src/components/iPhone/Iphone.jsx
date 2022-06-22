@@ -5,7 +5,6 @@ const Iphone = () => {
     <div className="iPhone">
       <div className="iphone_container">
         <div className="iphone_compare">
-          <h2>Which iPhone is right for you? </h2>
           <div className="iphone_compare_wrapper">
             <div className="iphone_compare_items">
               <img

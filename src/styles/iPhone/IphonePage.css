@@ -1,0 +1,17 @@
+.iphone_comparing_section {
+  background-color: #fff;
+  padding-bottom: 100px;
+}
+
+.iphone_comparing_section h2 {
+  text-align: center;
+  font-size: 48px;
+  padding-top: 80px;
+}
+
+.iphone_comparing_section_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}

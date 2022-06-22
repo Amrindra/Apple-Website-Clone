@@ -1,3 +1,4 @@
+import "../styles/iPhone/IphonePage.css";
 import IphoneBanner from "../components/iPhone/IphoneBanner";
 import IphoneHeader from "../components/iPhone/IphoneHeader";
 import Iphone from "../components/iPhone/Iphone";
@@ -34,7 +35,15 @@ const IphonePage = () => {
         className="iphone_se_banner"
       />
 
-      <Iphone />
+      <section className="iphone_comparing_section">
+        <h2>Which iPhone is right for you? </h2>
+        <div className="iphone_comparing_section_wrapper">
+          <Iphone />
+          <Iphone />
+          <Iphone />
+          <Iphone />
+        </div>
+      </section>
     </div>
   );
 };
