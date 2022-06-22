@@ -1,0 +1,29 @@
+.onlyOnApple{
+  .only_apple_intro{
+    height: 60vh;
+    
+    .only_apple_intro_wrapper{
+      text-align: center;
+      padding: 90px;
+
+      h1{
+        font-size: 96px;
+        line-height: 1;
+        font-weight: 700;
+        letter-spacing: -0.014em;
+      }
+
+      p{
+        max-width: 900px;
+        font-size: 24px;
+        line-height: 1.1666666667;
+        font-weight: 600;
+        letter-spacing: .009em;
+        margin-left: auto;
+        margin-right: auto;
+        color: #86868b;
+        padding-top: 50px;
+      }
+    }
+  }
+}
