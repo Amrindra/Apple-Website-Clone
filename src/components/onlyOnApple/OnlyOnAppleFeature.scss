@@ -22,14 +22,21 @@
        }
     }
 
+    &:hover{
+      .only_apple_music_feature_button{
+        opacity: 100;
+      }
+      cursor: pointer;
+    }
+
     .only_apple_music_feature_button{
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 20px;
-      padding: 12px 20px;
+      padding: 10px 15px;
       background-color: rgb(234, 224, 224);
-      width: 200px;
+      width: 170px;
       border-radius: 50px;
       position: absolute;
       top: 100px;  
