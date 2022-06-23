@@ -1,0 +1,53 @@
+.only_apple_music_feature{
+  margin-top: 20px;
+  
+  .only_apple_music_feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    
+    .only_apple_music_feature_content{
+
+       img{
+         border-radius: 10px;
+       }
+
+       p{
+         font-size: 17px;
+         color: gray;
+         padding: 5px 0 ;
+       }
+    }
+
+    .only_apple_music_feature_button{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      padding: 12px 20px;
+      background-color: rgb(234, 224, 224);
+      width: 200px;
+      border-radius: 50px;
+      position: absolute;
+      top: 100px;  
+      opacity: 0;
+      
+      button{
+        border: none;
+        background: none;
+        font-size: 17px;
+        cursor: pointer;
+
+      }
+    }
+
+     .only_apple_music_feature_button:hover{
+
+       opacity: 100;
+     
+    }
+  }
+} 

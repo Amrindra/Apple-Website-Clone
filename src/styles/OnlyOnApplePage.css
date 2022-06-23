@@ -1,0 +1,4 @@
+.only_on_apple_feature_section {
+  display: flex;
+  gap: 20px;
+}
