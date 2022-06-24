@@ -127,7 +127,11 @@
   }
 
   .introduction h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .shoping-help-and-location {
   }
 
   .store-introduction-and-shopping-help {
@@ -137,5 +141,13 @@
   .shopping-help {
     margin-left: -20px;
     padding-top: 20px;
+  }
+
+  .store-introduction-and-shopping-help {
+    padding: 20px 0 0 20px;
+  }
+
+  h3 {
+    font-size: 1.5rem;
   }
 }

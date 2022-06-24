@@ -38,6 +38,11 @@
 }
 
 @media screen and (max-width: 675px) {
+  .feature-body {
+    margin: 0 10px;
+    text-align: center;
+  }
+
   .homepage-feature img {
     width: 1000px;
   }

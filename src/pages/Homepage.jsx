@@ -18,6 +18,7 @@ const Homepage = () => {
           title="iPhone SE"
           desc="Love the power. Love the price."
           image="https://www.apple.com/v/home/an/images/heroes/iphone-se/hero_iphonese_avail__eg8srhcnpo66_largetall.jpg"
+          className="iphone_se"
         />
       </div>
 
@@ -85,6 +86,7 @@ const Homepage = () => {
           desc="Get up to 3% Daily Cash back with every purchase"
           img="https://www.apple.com/v/home/an/images/promos/apple-card/tile__cauwwcyyn9hy_large.jpg"
           button="Apply now"
+          className=""
         />
       </div>
     </div>

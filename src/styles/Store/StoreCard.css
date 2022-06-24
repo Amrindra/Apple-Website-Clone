@@ -45,3 +45,28 @@
 .store-card-white-text p {
   color: white;
 }
+
+@media screen and (max-width: 675px) {
+  .store-card-container {
+    width: 400px;
+    margin-left: 20px;
+  }
+
+  .store-card-container img {
+    width: 340px;
+  }
+
+  .watch_and_learn h3 {
+    font-size: 1.4rem;
+  }
+
+  .card-introduction-title {
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 0 10px;
+  }
+
+  .card_eduction h3 {
+    font-size: 1.4rem;
+  }
+}

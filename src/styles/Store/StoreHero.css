@@ -17,3 +17,9 @@
   font-weight: bold;
   padding-top: 10px;
 }
+
+@media screen and (max-width: 680px) {
+  .store-hero-container {
+    margin-bottom: 30px;
+  }
+}

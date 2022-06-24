@@ -227,6 +227,7 @@ const Store = () => {
             cardTitle="WATCH AND LEARN"
             cardDesc="Join a Today at Apple virtual session."
             cardImg="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-50-todayatapple-202108?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=1625788042000d"
+            className="watch_and_learn"
           />
 
           <StoreCard
@@ -269,31 +270,34 @@ const Store = () => {
             cardTitle="EDUCATION"
             cardDesc="Save on Mac or iPad with education pricing."
             cardImg="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-edu-202108?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1627492399000"
+            className="card_eduction"
           />
 
           <StoreCard
             cardTitle="BUSINESS"
             cardDesc="Six apple services. One easy subcription"
             cardImg="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-small-business-202108?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1627318784000"
-            className="store-card-white-text"
+            className="store-card-white-text card_eduction"
           />
 
           <StoreCard
             cardTitle="GOVERNMENT"
             cardDesc="Special pricing is available for state, local, and federal agencies."
             cardImg="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-gov-202108?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1632870676000"
-            className="store-card-white-text"
+            className="store-card-white-text card_eduction"
           />
 
           <StoreCard
             cardTitle="VETERANS AND MILITARY"
             cardDesc="Active and veteran members may be eligible for exclusive savings."
             cardImg="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-veterans-202203?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1645468079106"
+            className="card_eduction"
           />
           <StoreCard
             cardTitle="CERTIFIED REFURBISHED"
             cardDesc="Shop like-new products backed by a one-year warranty."
             cardImg="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-refurb-202108?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1627318783000"
+            className="card_eduction"
           />
         </section>
         <MdChevronRight

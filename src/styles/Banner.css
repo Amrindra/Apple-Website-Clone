@@ -43,6 +43,12 @@
     height: 500px;
   }
 
+  .iphone_se img {
+    margin-top: 70px;
+    width: 1300px;
+    height: 400px;
+  }
+
   .banner-body {
     top: 20px;
   }
