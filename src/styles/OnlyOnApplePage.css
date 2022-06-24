@@ -1,4 +1,7 @@
 .only_on_apple_feature_section {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
+  margin: 10px;
 }

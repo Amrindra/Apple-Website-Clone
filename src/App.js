@@ -1,6 +1,5 @@
 import "./index.css";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 import Homepage from "./pages/Homepage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MacPage from "./pages/MacPage";
@@ -32,7 +31,6 @@ export default function App() {
           <Route path="/support" element={<SupportPage />} />
           <Route path="/accessories" element={<AccessoriesPage />} />
         </Routes>
-        {/* <Footer /> */}
       </BrowserRouter>
     </div>
   );

@@ -103,12 +103,15 @@ const Header = () => {
         </div>
 
         <Link to="/">
-          <i className="fa-brands fa-apple fa-xl"></i>
+          <i
+            className="fa-brands fa-apple fa-xl"
+            onClick={() => setClick(false)}
+          ></i>
         </Link>
 
         <ShoppingBagIcon
-        // className={click ? "mobile-cart" : "shopping_cart_icon_on_mobile"}
-        // onClick={handleClick}
+          className={click ? "mobile-cart" : "shopping_cart_icon_on_mobile"}
+          // onClick={handleClick}
         />
       </nav>
 
@@ -135,15 +138,32 @@ const Header = () => {
             <li>iPhone</li>
           </Link>
 
-          <li>Watch</li>
-          <li>AirPods</li>
-          <li>TV & Home</li>
-          <li>Only on Apple</li>
+          <Link to="/watch">
+            <li>Watch</li>
+          </Link>
+
+          <Link to="/airpods">
+            <li>AirPods</li>
+          </Link>
+
+          <Link to="/tvandhome">
+            <li>TV & Home</li>
+          </Link>
+
+          <Link to="/onlyonapples">
+            <li>Only on Apple</li>
+          </Link>
+
           <Link to="/accessories">
             <li>Accessories</li>
           </Link>
 
-          <li className="mobile-screen-support">Support</li>
+          <Link to="/support">
+            <li>Support</li>
+          </Link>
+          <Link to="/accessories">
+            <li>Accessories</li>
+          </Link>
         </ul>
       )}
     </div>
