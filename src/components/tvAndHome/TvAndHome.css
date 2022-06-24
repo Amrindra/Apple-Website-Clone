@@ -48,6 +48,9 @@
   display: flex;
   margin-top: 100px;
   gap: 1.2rem;
+  max-width: 1184px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .tvAndHome_card_left,
@@ -108,15 +111,15 @@
 }
 
 /* HOME CARD SECTION */
-.tvAndHome_card_home_wrapper {
-}
-
 .tvAndHome_card_home {
   display: flex;
   justify-content: space-between;
   background-color: white;
   margin-top: 1.2rem;
   border-radius: 15px;
+  max-width: 1184px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .tvAndHome_card_home_left {
@@ -151,4 +154,56 @@
 .learn_more {
   color: rgb(89, 89, 190);
   font-size: 1.4rem;
+}
+
+@media screen and (max-width: 675px) {
+  .tvAndHome_hero_title {
+    font-size: 4rem;
+    max-width: 330px;
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .tvAndHome_hero_desc {
+    font-size: 1.5rem;
+    max-width: 320px;
+  }
+
+  /* CARD WRAPPER SECTION */
+  .tvAndHome_card_wrapper {
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 20px;
+    width: 330px;
+  }
+
+  .tvAndHome_card_left .home_img,
+  .tvAndHome_card_right .home_img {
+    width: 100%;
+  }
+
+  /* HOME CARD SECTION */
+  .tvAndHome_card_home {
+    flex-direction: column-reverse;
+    overflow: hidden;
+    width: 330px;
+    padding-bottom: 40px;
+  }
+
+  .tvAndHome_card_home_right {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .tvAndHome_card_home_left .tvAndHome_card_home_img {
+    /* display: none; */
+    width: 330px;
+    margin-left: 15px;
+    margin-top: 30px;
+    padding: 0;
+  }
+
+  .tvAndHome_card_home_right h1 {
+    margin-left: 0px;
+  }
 }

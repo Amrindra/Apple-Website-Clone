@@ -1,6 +1,7 @@
 .header_book {
   background-color: rgb(224, 224, 224);
   color: white;
+  overflow: hidden;
 }
 
 .header_book_wrapper {

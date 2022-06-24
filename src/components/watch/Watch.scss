@@ -136,7 +136,6 @@
   .watch_se_display{
     background-color: #fff;
     
-    
     .watch_se_display_container{
       display: flex;
       justify-content: center;
@@ -201,6 +200,7 @@
 
 @media (max-width: 765px){
   .watch{
+    overflow: hidden;
 
     .watch_container{
 

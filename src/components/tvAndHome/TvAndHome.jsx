@@ -1,5 +1,6 @@
 import "./TvAndHome.css";
 import TvAndHomeHeader from "./TvAndHomeHeader";
+import Fade from "react-reveal/Fade";
 
 const TvAndHome = () => {
   return (
@@ -7,29 +8,36 @@ const TvAndHome = () => {
       <TvAndHomeHeader />
 
       <div className="tvAndHome_wrapper">
-        <img
-          className="apple_tv_banner_img"
-          src="https://www.apple.com/v/tv-home/d/images/overview/hero_tv__d8nngabrofue_large.png"
-          alt=""
-        />
-
-        <div className="tvAndHome_hero">
+        <Fade top cascade>
           <img
-            src="https://www.apple.com/v/tv-home/d/images/overview/hero_homepod_appletv_lockup__ecxlvf764zu6_large.png"
+            className="apple_tv_banner_img"
+            src="https://www.apple.com/v/tv-home/d/images/overview/hero_tv__d8nngabrofue_large.png"
             alt=""
           />
-          <h1 className="tvAndHome_hero_title">The future hits home.</h1>
-          <p className="tvAndHome_hero_desc">
-            Simply connect your favorite devices and transform your house into a
-            remarkably smart, convenient, and entertaining home. Control lights,
-            locks, and thermostats with your iPhone — or just your voice. Play
-            any song, in any room, from anywhere. And elevate movie night with
-            theater-like picture and sound. All with the security and privacy of
-            Apple.
-          </p>
+        </Fade>
+
+        <div className="tvAndHome_hero">
+          <Fade top cascade>
+            <img
+              src="https://www.apple.com/v/tv-home/d/images/overview/hero_homepod_appletv_lockup__ecxlvf764zu6_large.png"
+              alt=""
+            />
+          </Fade>
+
+          <Fade top cascade>
+            <h1 className="tvAndHome_hero_title">The future hits home.</h1>
+            <p className="tvAndHome_hero_desc">
+              Simply connect your favorite devices and transform your house into
+              a remarkably smart, convenient, and entertaining home. Control
+              lights, locks, and thermostats with your iPhone — or just your
+              voice. Play any song, in any room, from anywhere. And elevate
+              movie night with theater-like picture and sound. All with the
+              security and privacy of Apple.
+            </p>
+          </Fade>
         </div>
 
-        <div className="vAndHome_card_container">
+        <div className="tvAndHome_card_container">
           <div className="tvAndHome_card_wrapper">
             <div className="tvAndHome_card_left">
               <h3 className="card_left_title">HomePod mini</h3>
@@ -45,6 +53,7 @@ const TvAndHome = () => {
               <img
                 src="https://www.apple.com/v/tv-home/d/images/overview/room_filling_sound__zagu3551kwyi_large.jpg"
                 alt=""
+                className="home_img"
               />
             </div>
 
@@ -65,6 +74,7 @@ const TvAndHome = () => {
               <img
                 src="https://www.apple.com/v/tv-home/d/images/overview/higher_definition__hfivribdc3ue_large.jpg"
                 alt=""
+                className="home_img"
               />
             </div>
           </div>
