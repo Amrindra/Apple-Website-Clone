@@ -1,7 +1,6 @@
 import "./OnlyOnApple.scss";
 import OnlyOnAppleHeader from "./OnlyOnAppleHeader";
 import Fade from "react-reveal/Fade";
-import { Player } from "video-react";
 
 const OnlyOnApple = () => {
   return (

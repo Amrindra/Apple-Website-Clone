@@ -60,3 +60,41 @@
     }
   }
 }
+
+@media screen and (max-width:765px){
+  .onlyOnApple{
+    overflow: hidden;
+    .only_apple_intro{
+      
+      .only_apple_intro_wrapper{
+        padding: 0;
+        margin: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+  
+        h1{
+          font-size: 38px;
+          width: 440px;
+        }
+  
+        p{
+          font-size: 22px;  
+        }
+      }
+    }
+    .only_apple_banner{
+      background-color: black;
+      .only_apple_banner_wrapper{
+        height: 30vh;
+        flex-direction: column;
+        gap: 15px;
+        
+        p{
+         text-align: center;
+        }
+      }
+    }
+  }
+}

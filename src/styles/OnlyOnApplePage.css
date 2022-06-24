@@ -5,3 +5,14 @@
   gap: 20px;
   margin: 10px;
 }
+
+@media screen and (max-width: 765px) {
+  .only_on_apple_feature_section {
+    overflow: scroll;
+    scroll-behavior: smooth;
+  }
+
+  .only_on_apple_feature_section::-webkit-scrollbar {
+    display: none;
+  }
+}
