@@ -1,6 +1,7 @@
 .ipad-charpter-nav-container {
   background-color: black;
   color: white;
+  overflow: hidden;
 }
 
 .ipad-charpter-nav-wrapper {
