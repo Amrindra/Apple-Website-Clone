@@ -18,3 +18,11 @@
   align-items: center;
   gap: 50px;
 }
+
+@media screen and (max-width: 675px) {
+  .iphone_comparing_section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+}

@@ -89,3 +89,53 @@
   );
   color: transparent;
 }
+
+@media screen and (max-width: 675px) {
+  .iphone-banner-body {
+    margin-top: 50px;
+  }
+
+  .iphone-banner-container h3 {
+    font-size: 1.4rem;
+  }
+
+  .iphone-banner-container h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .iphone-banner-container p {
+    font-size: 1rem;
+  }
+
+  .iphone_banner_img_wrapper img {
+    margin-top: 20px;
+    width: 330px;
+  }
+
+  /* Iphone SE section from the props */
+  .iphone_se_banner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .iphone_se_banner .iphone-button-wrappers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .iphone_se_banner .iphone-button-wrappers .iphone-buy-btn {
+    width: 70px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+
+  .iphone_se_banner .iphone_banner_img_wrapper img {
+    margin-top: -70px;
+  }
+
+  .iphone_se_banner .iphone-banner-body {
+    padding: 0 10px;
+  }
+}

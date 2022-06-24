@@ -1,4 +1,4 @@
-import "../../styles/iPhone/IphoneHeader.css";
+// import "../../styles/iPhone/IphoneHeader.css";
 import DevicesHeader from "../DevicesHeader";
 
 const IphoneHeader = () => {
