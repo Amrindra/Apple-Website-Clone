@@ -290,6 +290,40 @@
           }
         }
       }
+
+       //Feature Card Section
+    .accessories_card_feature_section{
+      background-color: white;
+     
+      .accessories_card_feature_section_container{
+
+      h1{
+        font-size: 2.5rem;
+        padding-top: 60px;
+      }
+      
+      .accessories_card_feature_section_wrapper{
+      
+        .accessories_card_feature_top{
+          flex-direction: column;
+
+  
+        }
+        
+      } 
+          .accessories_card_feature_bottom, .accessories_card_headphone{
+            display: grid;
+          }  
+
+          .accessories_card_headphone_section{
+            h3{
+              font-size: 3rem;
+              text-align: center;
+              padding: 80px 0 10px 0;
+            }
+          }
+        }
+        }
     }
   }
 }

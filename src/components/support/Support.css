@@ -190,7 +190,6 @@ hr {
 
 .support_content_link_wrapper {
   display: flex;
-
   gap: 100px;
 }
 
@@ -279,4 +278,104 @@ hr {
   font-size: 1.2rem;
   color: var(--blue-color);
   padding-top: 15px;
+}
+
+@media screen and (max-width: 675px) {
+  .support_header {
+    background-image: url("https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/psp-hero-banner-homepage-welcome.image.small_2x.jpg");
+    height: 40vh;
+  }
+
+  header h1 {
+    display: none;
+  }
+
+  .support_proudct_nav .support_title {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .support_proudct_nav_warpper {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 40px;
+    margin-top: 0;
+  }
+
+  .support_proudct_nav_item img {
+    width: 80px;
+  }
+
+  /* REPAIR SECTION */
+  .support_repair_wrapper {
+    flex-direction: column;
+    padding: 10px 10px;
+  }
+
+  .support_repair_item {
+    padding: 50px;
+  }
+
+  .support_repair_item.middle {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-left: none;
+    border-right: none;
+  }
+
+  .support_repair_item_text_wrapper {
+    width: 200px;
+  }
+
+  /* SEARCH SUPPPORT SECTION */
+  .support_search {
+    padding: 40px 0px;
+  }
+
+  .support_search h1 {
+    text-align: center;
+  }
+
+  .support_search_input_wrapper {
+    margin-top: 20px;
+    width: 90%;
+  }
+
+  /* SUPPORT_CONTENT_LINK SECTION */
+  .support_content_link_wrapper {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .support_content_link_item {
+    width: 400px;
+  }
+
+  .suport_content_link_block {
+    text-align: center;
+  }
+
+  .suport_content_link_block h3 {
+    font-size: 1.6rem;
+  }
+
+  /* SUPPORT VIRTUAL SECTION */
+  .support_virtual_wrapper {
+    flex-direction: column;
+  }
+
+  .support_virtual_wrapper img {
+    width: 400px;
+    margin-top: 20px;
+  }
+
+  /* Get support SECTION */
+  .get_support {
+    background-image: url("https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/psp-hero-banner-homepage-getsupport.image.small_2x.jpg");
+    width: 100%;
+  }
+
+  .get_support_wrapper {
+    display: none;
+  }
 }

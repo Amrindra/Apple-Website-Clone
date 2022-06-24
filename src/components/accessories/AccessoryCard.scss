@@ -65,3 +65,10 @@
 .feature_card_1, .feature_card_3, .feature_card_4, .feature_card_5{
   width: 350px;
 }
+
+@media screen and (max-width: 675px){
+  .feature_card_2{
+  width: 340px;
+
+  }
+}

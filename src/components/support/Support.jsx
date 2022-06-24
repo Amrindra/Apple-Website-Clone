@@ -12,6 +12,7 @@ const Support = () => {
         </header>
 
         <div className="support_proudct_nav">
+          <h1 className="support_title">Apple Support</h1>
           <div className="support_proudct_nav_warpper">
             <div className="support_proudct_nav_item">
               <img
